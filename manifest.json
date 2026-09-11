@@ -23,6 +23,7 @@
   "Name": "Pörssisähkön hinta",
   "Icon": "images/icon_large",
   "URL": "https://github.com/panuoksala/streamdeck-sahkonhinta-plugin",
+  "UUID": "net.oksala.sahkonhinta",
   "Version": "0.1.0",
   "SDKVersion": 2,
   "Software": {
