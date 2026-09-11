@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Sahkonhinta Property Inspector</title>
+    <link rel="stylesheet" href="css/sdpi.css">
+    <link rel="stylesheet" href="css/property-inspector.css">
+</head>
+<body>
+    <div class="sdpi-wrapper">
+        <!-- for more examples of the types of fields supported in property inspector visit:
+            Elgato Github PiSamples -> https://github.com/elgatosf/streamdeck-pisamples
+            and
+            Elgato SDK Documentation -> https://developer.elgato.com/documentation/stream-deck/sdk/property-inspector/
+    -->
+        <div class="sdpi-item" id="low_price_threshold" type="field">
+            <div class="sdpi-item-label">Low price threshold (c/kWh)</div>
+            <input id="txtLowPriceThreshold" class="sdpi-item-value" type="number" placeholder="Price is considered low at or below this value" onKeyUp="setSettings(event.target.value, 'LowPriceThreshold')" />
+        </div>
+
+        <div class="sdpi-item" id="high_price_threshold" type="field">
+            <div class="sdpi-item-label">High price threshold (c/kWh)</div>
+            <input id="txtHighPriceThreshold" class="sdpi-item-value" type="number" placeholder="Price is considered high at or above this value" onKeyUp="setSettings(event.target.value, 'HighPriceThreshold')" />
+        </div>
+
+        <div class="sdpi-item" id="low_price_color" type="field">
+            <div class="sdpi-item-label">Low price color</div>
+            <input id="txtLowPriceColor" class="sdpi-item-value" type="color" onChange="setSettings(event.target.value, 'LowPriceColor')" />
+        </div>
+
+        <div class="sdpi-item" id="medium_price_color" type="field">
+            <div class="sdpi-item-label">Medium price color</div>
+            <input id="txtMediumPriceColor" class="sdpi-item-value" type="color" onChange="setSettings(event.target.value, 'MediumPriceColor')" />
+        </div>
+
+        <div class="sdpi-item" id="high_price_color" type="field">
+            <div class="sdpi-item-label">High price color</div>
+            <input id="txtHighPriceColor" class="sdpi-item-value" type="color" onChange="setSettings(event.target.value, 'HighPriceColor')" />
+        </div>
+
+        <div class="sdpi-item" id="errors">
+            <div class="sdpi-item-label">Errors</div>
+            <div id="error_message" style="color: red"></div>
+        </div>
+    </div>
+    <script src="js/property-inspector.js"></script>
+</body>
+</html>

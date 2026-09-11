@@ -1,0 +1,2268 @@
+{
+  "settings": {
+    "components": {
+      "code": true,
+      "binaries": false
+    },
+    "targetId": "net10.0",
+    "targetDisplayName": ".NETCoreApp,Version=v10.0"
+  },
+  "analysisStartTime": "2026-09-10T16:26:32.5124828Z",
+  "analysisEndTime": "2026-09-10T16:26:35.9970959Z",
+  "privacyModeHelpUrl": "https://go.microsoft.com/fwlink/?linkid=2270980",
+  "stats": {
+    "summary": {
+      "projects": 1,
+      "issues": 6,
+      "incidents": 85,
+      "effort": 85
+    },
+    "charts": {
+      "severity": {
+        "Mandatory": 2,
+        "Optional": 0,
+        "Potential": 83,
+        "Information": 0
+      },
+      "category": {
+        "NuGet": 7,
+        "Project": 1,
+        "Api": 77
+      }
+    }
+  },
+  "projects": [
+    {
+      "path": "StreamDeckSahkonhinta.csproj",
+      "startingProject": true,
+      "issues": 5,
+      "storyPoints": 85,
+      "properties": {
+        "appName": "StreamDeckSahkonhinta",
+        "projectKind": "DotNetCoreApp",
+        "frameworks": [
+          "net6.0"
+        ],
+        "languages": [
+          "C#"
+        ],
+        "tools": [
+          "MSBuild"
+        ],
+        "isSdkStyle": true,
+        "numberOfFiles": 19,
+        "numberOfCodeFiles": 8,
+        "linesTotal": 24721,
+        "linesOfCode": 620,
+        "totalApiScanned": 588,
+        "minLinesOfCodeToChange": 77,
+        "maxLinesOfCodeToChange": 77
+      },
+      "ruleInstances": [
+        {
+          "incidentId": "6593c56e-a2bb-4587-b85c-9ef9736f580b",
+          "ruleId": "NuGet.0002",
+          "projectPath": "StreamDeckSahkonhinta.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Microsoft.Extensions.Hosting, 8.0.0\n\nRecommendation:\n\nRemove Microsoft.Extensions.Hosting, and replace with new package Microsoft.Extensions.Hosting 10.0.12",
+              "protected": "Microsoft.Extensions.Hosting, 8.0.0\n\nRecommendation:\n\nRemove Microsoft.Extensions.Hosting, and replace with new package Microsoft.Extensions.Hosting 10.0.12"
+            },
+            "kind": "File",
+            "path": "StreamDeckSahkonhinta.csproj",
+            "snippet": "Microsoft.Extensions.Hosting, 8.0.0\n\nRecommendation:\n\nRemove Microsoft.Extensions.Hosting, and replace with new package Microsoft.Extensions.Hosting 10.0.12",
+            "protectedSnippet": "Microsoft.Extensions.Hosting, 8.0.0\n\nRecommendation:\n\nRemove Microsoft.Extensions.Hosting, and replace with new package Microsoft.Extensions.Hosting 10.0.12",
+            "label": "Microsoft.Extensions.Hosting 8.0.0",
+            "properties": {
+              "PackageId": "Microsoft.Extensions.Hosting",
+              "PackageVersion": "8.0.0",
+              "PackageNewVersion": "10.0.12",
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "0b445db9-5489-4d6e-a0aa-0dc17b63bda0",
+          "ruleId": "NuGet.0002",
+          "projectPath": "StreamDeckSahkonhinta.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Microsoft.Extensions.Configuration, 8.0.0\n\nRecommendation:\n\nRemove Microsoft.Extensions.Configuration, and replace with new package Microsoft.Extensions.Configuration 10.0.12",
+              "protected": "Microsoft.Extensions.Configuration, 8.0.0\n\nRecommendation:\n\nRemove Microsoft.Extensions.Configuration, and replace with new package Microsoft.Extensions.Configuration 10.0.12"
+            },
+            "kind": "File",
+            "path": "StreamDeckSahkonhinta.csproj",
+            "snippet": "Microsoft.Extensions.Configuration, 8.0.0\n\nRecommendation:\n\nRemove Microsoft.Extensions.Configuration, and replace with new package Microsoft.Extensions.Configuration 10.0.12",
+            "protectedSnippet": "Microsoft.Extensions.Configuration, 8.0.0\n\nRecommendation:\n\nRemove Microsoft.Extensions.Configuration, and replace with new package Microsoft.Extensions.Configuration 10.0.12",
+            "label": "Microsoft.Extensions.Configuration 8.0.0",
+            "properties": {
+              "PackageId": "Microsoft.Extensions.Configuration",
+              "PackageVersion": "8.0.0",
+              "PackageNewVersion": "10.0.12",
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "e2f792ba-dc16-4196-afa6-33bc729c8f6c",
+          "ruleId": "NuGet.0002",
+          "projectPath": "StreamDeckSahkonhinta.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Microsoft.Extensions.Configuration.Json, 8.0.0\n\nRecommendation:\n\nRemove Microsoft.Extensions.Configuration.Json, and replace with new package Microsoft.Extensions.Configuration.Json 10.0.12",
+              "protected": "Microsoft.Extensions.Configuration.Json, 8.0.0\n\nRecommendation:\n\nRemove Microsoft.Extensions.Configuration.Json, and replace with new package Microsoft.Extensions.Configuration.Json 10.0.12"
+            },
+            "kind": "File",
+            "path": "StreamDeckSahkonhinta.csproj",
+            "snippet": "Microsoft.Extensions.Configuration.Json, 8.0.0\n\nRecommendation:\n\nRemove Microsoft.Extensions.Configuration.Json, and replace with new package Microsoft.Extensions.Configuration.Json 10.0.12",
+            "protectedSnippet": "Microsoft.Extensions.Configuration.Json, 8.0.0\n\nRecommendation:\n\nRemove Microsoft.Extensions.Configuration.Json, and replace with new package Microsoft.Extensions.Configuration.Json 10.0.12",
+            "label": "Microsoft.Extensions.Configuration.Json 8.0.0",
+            "properties": {
+              "PackageId": "Microsoft.Extensions.Configuration.Json",
+              "PackageVersion": "8.0.0",
+              "PackageNewVersion": "10.0.12",
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "e6a0f40a-a1d1-476a-97de-4706b61a27c5",
+          "ruleId": "NuGet.0002",
+          "projectPath": "StreamDeckSahkonhinta.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Newtonsoft.Json, 13.0.3\n\nRecommendation:\n\nRemove Newtonsoft.Json, and replace with new package Newtonsoft.Json 13.0.4",
+              "protected": "Newtonsoft.Json, 13.0.3\n\nRecommendation:\n\nRemove Newtonsoft.Json, and replace with new package Newtonsoft.Json 13.0.4"
+            },
+            "kind": "File",
+            "path": "StreamDeckSahkonhinta.csproj",
+            "snippet": "Newtonsoft.Json, 13.0.3\n\nRecommendation:\n\nRemove Newtonsoft.Json, and replace with new package Newtonsoft.Json 13.0.4",
+            "protectedSnippet": "Newtonsoft.Json, 13.0.3\n\nRecommendation:\n\nRemove Newtonsoft.Json, and replace with new package Newtonsoft.Json 13.0.4",
+            "label": "Newtonsoft.Json 13.0.3",
+            "properties": {
+              "PackageId": "Newtonsoft.Json",
+              "PackageVersion": "13.0.3",
+              "PackageNewVersion": "13.0.4",
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "937c016d-01fd-40ce-bc2c-90db56480cf3",
+          "ruleId": "NuGet.0002",
+          "projectPath": "StreamDeckSahkonhinta.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Microsoft.Extensions.Logging, 8.0.0\n\nRecommendation:\n\nRemove Microsoft.Extensions.Logging, and replace with new package Microsoft.Extensions.Logging 10.0.12",
+              "protected": "Microsoft.Extensions.Logging, 8.0.0\n\nRecommendation:\n\nRemove Microsoft.Extensions.Logging, and replace with new package Microsoft.Extensions.Logging 10.0.12"
+            },
+            "kind": "File",
+            "path": "StreamDeckSahkonhinta.csproj",
+            "snippet": "Microsoft.Extensions.Logging, 8.0.0\n\nRecommendation:\n\nRemove Microsoft.Extensions.Logging, and replace with new package Microsoft.Extensions.Logging 10.0.12",
+            "protectedSnippet": "Microsoft.Extensions.Logging, 8.0.0\n\nRecommendation:\n\nRemove Microsoft.Extensions.Logging, and replace with new package Microsoft.Extensions.Logging 10.0.12",
+            "label": "Microsoft.Extensions.Logging 8.0.0",
+            "properties": {
+              "PackageId": "Microsoft.Extensions.Logging",
+              "PackageVersion": "8.0.0",
+              "PackageNewVersion": "10.0.12",
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "4c7a8047-7d18-422a-92cf-48a13940f3b3",
+          "ruleId": "NuGet.0003",
+          "projectPath": "StreamDeckSahkonhinta.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "System.Net.WebSockets, 4.3.0\n\nRecommendation:\n\nPackage functionality included with new framework reference",
+              "protected": "System.Net.WebSockets, 4.3.0\n\nRecommendation:\n\nPackage functionality included with new framework reference"
+            },
+            "kind": "File",
+            "path": "StreamDeckSahkonhinta.csproj",
+            "snippet": "System.Net.WebSockets, 4.3.0\n\nRecommendation:\n\nPackage functionality included with new framework reference",
+            "protectedSnippet": "System.Net.WebSockets, 4.3.0\n\nRecommendation:\n\nPackage functionality included with new framework reference",
+            "label": "System.Net.WebSockets 4.3.0",
+            "properties": {
+              "PackageId": "System.Net.WebSockets",
+              "PackageVersion": "4.3.0",
+              "PackageNewVersion": null,
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "c57a35a5-7204-4264-b269-200c11b7215d",
+          "ruleId": "NuGet.0002",
+          "projectPath": "StreamDeckSahkonhinta.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "System.Drawing.Common, 8.0.0\n\nRecommendation:\n\nRemove System.Drawing.Common, and replace with new package System.Drawing.Common 10.0.12",
+              "protected": "System.Drawing.Common, 8.0.0\n\nRecommendation:\n\nRemove System.Drawing.Common, and replace with new package System.Drawing.Common 10.0.12"
+            },
+            "kind": "File",
+            "path": "StreamDeckSahkonhinta.csproj",
+            "snippet": "System.Drawing.Common, 8.0.0\n\nRecommendation:\n\nRemove System.Drawing.Common, and replace with new package System.Drawing.Common 10.0.12",
+            "protectedSnippet": "System.Drawing.Common, 8.0.0\n\nRecommendation:\n\nRemove System.Drawing.Common, and replace with new package System.Drawing.Common 10.0.12",
+            "label": "System.Drawing.Common 8.0.0",
+            "properties": {
+              "PackageId": "System.Drawing.Common",
+              "PackageVersion": "8.0.0",
+              "PackageNewVersion": "10.0.12",
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "757736ba-da34-4227-85b3-cc24722595b1",
+          "ruleId": "Project.0002",
+          "projectPath": "StreamDeckSahkonhinta.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Current target framework: net6.0\nRecommended target framework: net10.0",
+              "protected": "Current target framework: net6.0\nRecommended target framework: net10.0"
+            },
+            "kind": "File",
+            "path": "StreamDeckSahkonhinta.csproj",
+            "snippet": "Current target framework: net6.0\nRecommended target framework: net10.0",
+            "protectedSnippet": "Current target framework: net6.0\nRecommended target framework: net10.0",
+            "properties": {
+              "CurrentTargetFramework": "net6.0",
+              "RecommendedTargetFramework": "net10.0"
+            }
+          }
+        },
+        {
+          "incidentId": "6b55b627-1f37-4f22-8524-cfaee81ed7ed",
+          "ruleId": "Api.0002",
+          "description": "API is available in package System.Drawing.Common, 8.0.6. Add package reference to System.Drawing.Common, 8.0.6",
+          "projectPath": "StreamDeckSahkonhinta.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "private static string ToDataUri(Bitmap bitmap)",
+              "protected": "T:System.Drawing.Bitmap"
+            },
+            "kind": "File",
+            "path": "Services\\IconRenderer.cs",
+            "snippet": "private static string ToDataUri(Bitmap bitmap)",
+            "protectedSnippet": "T:System.Drawing.Bitmap",
+            "label": "T:System.Drawing.Bitmap",
+            "properties": {
+              "PackageId": "System.Drawing.Common",
+              "PackageNewVersion": "8.0.6"
+            },
+            "line": 150,
+            "column": 8
+          }
+        },
+        {
+          "incidentId": "e2cf4356-1423-4e8e-8938-04ee8baa0249",
+          "ruleId": "Api.0002",
+          "description": "API is available in package System.Drawing.Common, 8.0.6. Add package reference to System.Drawing.Common, 8.0.6",
+          "projectPath": "StreamDeckSahkonhinta.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "bitmap.Save(stream, ImageFormat.Png);",
+              "protected": "T:System.Drawing.Imaging.ImageFormat"
+            },
+            "kind": "File",
+            "path": "Services\\IconRenderer.cs",
+            "snippet": "bitmap.Save(stream, ImageFormat.Png);",
+            "protectedSnippet": "T:System.Drawing.Imaging.ImageFormat",
+            "label": "T:System.Drawing.Imaging.ImageFormat",
+            "properties": {
+              "PackageId": "System.Drawing.Common",
+              "PackageNewVersion": "8.0.6"
+            },
+            "line": 153,
+            "column": 12
+          }
+        },
+        {
+          "incidentId": "e82d5a71-bd62-4b02-b684-108a1f980343",
+          "ruleId": "Api.0002",
+          "description": "API is available in package System.Drawing.Common, 8.0.6. Add package reference to System.Drawing.Common, 8.0.6",
+          "projectPath": "StreamDeckSahkonhinta.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "bitmap.Save(stream, ImageFormat.Png);",
+              "protected": "T:System.Drawing.Imaging.ImageFormat"
+            },
+            "kind": "File",
+            "path": "Services\\IconRenderer.cs",
+            "snippet": "bitmap.Save(stream, ImageFormat.Png);",
+            "protectedSnippet": "T:System.Drawing.Imaging.ImageFormat",
+            "label": "T:System.Drawing.Imaging.ImageFormat",
+            "properties": {
+              "PackageId": "System.Drawing.Common",
+              "PackageNewVersion": "8.0.6"
+            },
+            "line": 153,
+            "column": 12
+          }
+        },
+        {
+          "incidentId": "6fe17bc8-ffd3-4b5a-973f-e000fec7a637",
+          "ruleId": "Api.0002",
+          "description": "API is available in package System.Drawing.Common, 8.0.6. Add package reference to System.Drawing.Common, 8.0.6",
+          "projectPath": "StreamDeckSahkonhinta.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "bitmap.Save(stream, ImageFormat.Png);",
+              "protected": "P:System.Drawing.Imaging.ImageFormat.Png"
+            },
+            "kind": "File",
+            "path": "Services\\IconRenderer.cs",
+            "snippet": "bitmap.Save(stream, ImageFormat.Png);",
+            "protectedSnippet": "P:System.Drawing.Imaging.ImageFormat.Png",
+            "label": "P:System.Drawing.Imaging.ImageFormat.Png",
+            "properties": {
+              "PackageId": "System.Drawing.Common",
+              "PackageNewVersion": "8.0.6"
+            },
+            "line": 153,
+            "column": 12
+          }
+        },
+        {
+          "incidentId": "243d8c58-aa8a-422f-b0a3-f003e5e0d84d",
+          "ruleId": "Api.0002",
+          "description": "API is available in package System.Drawing.Common, 8.0.6. Add package reference to System.Drawing.Common, 8.0.6",
+          "projectPath": "StreamDeckSahkonhinta.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "bitmap.Save(stream, ImageFormat.Png);",
+              "protected": "M:System.Drawing.Image.Save(System.IO.Stream,System.Drawing.Imaging.ImageFormat)"
+            },
+            "kind": "File",
+            "path": "Services\\IconRenderer.cs",
+            "snippet": "bitmap.Save(stream, ImageFormat.Png);",
+            "protectedSnippet": "M:System.Drawing.Image.Save(System.IO.Stream,System.Drawing.Imaging.ImageFormat)",
+            "label": "M:System.Drawing.Image.Save(System.IO.Stream,System.Drawing.Imaging.ImageFormat)",
+            "properties": {
+              "PackageId": "System.Drawing.Common",
+              "PackageNewVersion": "8.0.6"
+            },
+            "line": 153,
+            "column": 12
+          }
+        },
+        {
+          "incidentId": "64a520bd-cd58-4f72-bab2-d1769225a6e6",
+          "ruleId": "Api.0002",
+          "description": "API is available in package System.Drawing.Common, 8.0.6. Add package reference to System.Drawing.Common, 8.0.6",
+          "projectPath": "StreamDeckSahkonhinta.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "private static GraphicsPath RoundedRect(Rectangle bounds, int radius)",
+              "protected": "T:System.Drawing.Drawing2D.GraphicsPath"
+            },
+            "kind": "File",
+            "path": "Services\\IconRenderer.cs",
+            "snippet": "private static GraphicsPath RoundedRect(Rectangle bounds, int radius)",
+            "protectedSnippet": "T:System.Drawing.Drawing2D.GraphicsPath",
+            "label": "T:System.Drawing.Drawing2D.GraphicsPath",
+            "properties": {
+              "PackageId": "System.Drawing.Common",
+              "PackageNewVersion": "8.0.6"
+            },
+            "line": 136,
+            "column": 8
+          }
+        },
+        {
+          "incidentId": "4a405d44-25a6-404c-b909-fb0b41404760",
+          "ruleId": "Api.0002",
+          "description": "API is available in package System.Drawing.Common, 8.0.6. Add package reference to System.Drawing.Common, 8.0.6",
+          "projectPath": "StreamDeckSahkonhinta.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "path.CloseFigure();",
+              "protected": "M:System.Drawing.Drawing2D.GraphicsPath.CloseFigure"
+            },
+            "kind": "File",
+            "path": "Services\\IconRenderer.cs",
+            "snippet": "path.CloseFigure();",
+            "protectedSnippet": "M:System.Drawing.Drawing2D.GraphicsPath.CloseFigure",
+            "label": "M:System.Drawing.Drawing2D.GraphicsPath.CloseFigure",
+            "properties": {
+              "PackageId": "System.Drawing.Common",
+              "PackageNewVersion": "8.0.6"
+            },
+            "line": 145,
+            "column": 12
+          }
+        },
+        {
+          "incidentId": "a0812cb7-38d1-4ba8-8f75-c3327c51fd45",
+          "ruleId": "Api.0002",
+          "description": "API is available in package System.Drawing.Common, 8.0.6. Add package reference to System.Drawing.Common, 8.0.6",
+          "projectPath": "StreamDeckSahkonhinta.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "path.AddArc(bounds.X, bounds.Bottom - diameter, diameter, diameter, 90, 90);",
+              "protected": "M:System.Drawing.Drawing2D.GraphicsPath.AddArc(System.Int32,System.Int32,System.Int32,System.Int32,System.Single,System.Single)"
+            },
+            "kind": "File",
+            "path": "Services\\IconRenderer.cs",
+            "snippet": "path.AddArc(bounds.X, bounds.Bottom - diameter, diameter, diameter, 90, 90);",
+            "protectedSnippet": "M:System.Drawing.Drawing2D.GraphicsPath.AddArc(System.Int32,System.Int32,System.Int32,System.Int32,System.Single,System.Single)",
+            "label": "M:System.Drawing.Drawing2D.GraphicsPath.AddArc(System.Int32,System.Int32,System.Int32,System.Int32,System.Single,System.Single)",
+            "properties": {
+              "PackageId": "System.Drawing.Common",
+              "PackageNewVersion": "8.0.6"
+            },
+            "line": 144,
+            "column": 12
+          }
+        },
+        {
+          "incidentId": "915ac71e-5c68-43a3-a678-cd3c8cd103e5",
+          "ruleId": "Api.0002",
+          "description": "API is available in package System.Drawing.Common, 8.0.6. Add package reference to System.Drawing.Common, 8.0.6",
+          "projectPath": "StreamDeckSahkonhinta.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "path.AddArc(bounds.Right - diameter, bounds.Bottom - diameter, diameter, diameter, 0, 90);",
+              "protected": "M:System.Drawing.Drawing2D.GraphicsPath.AddArc(System.Int32,System.Int32,System.Int32,System.Int32,System.Single,System.Single)"
+            },
+            "kind": "File",
+            "path": "Services\\IconRenderer.cs",
+            "snippet": "path.AddArc(bounds.Right - diameter, bounds.Bottom - diameter, diameter, diameter, 0, 90);",
+            "protectedSnippet": "M:System.Drawing.Drawing2D.GraphicsPath.AddArc(System.Int32,System.Int32,System.Int32,System.Int32,System.Single,System.Single)",
+            "label": "M:System.Drawing.Drawing2D.GraphicsPath.AddArc(System.Int32,System.Int32,System.Int32,System.Int32,System.Single,System.Single)",
+            "properties": {
+              "PackageId": "System.Drawing.Common",
+              "PackageNewVersion": "8.0.6"
+            },
+            "line": 143,
+            "column": 12
+          }
+        },
+        {
+          "incidentId": "4f496cde-a9c2-4d24-abd7-1112e805efbf",
+          "ruleId": "Api.0002",
+          "description": "API is available in package System.Drawing.Common, 8.0.6. Add package reference to System.Drawing.Common, 8.0.6",
+          "projectPath": "StreamDeckSahkonhinta.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "path.AddArc(bounds.Right - diameter, bounds.Y, diameter, diameter, 270, 90);",
+              "protected": "M:System.Drawing.Drawing2D.GraphicsPath.AddArc(System.Int32,System.Int32,System.Int32,System.Int32,System.Single,System.Single)"
+            },
+            "kind": "File",
+            "path": "Services\\IconRenderer.cs",
+            "snippet": "path.AddArc(bounds.Right - diameter, bounds.Y, diameter, diameter, 270, 90);",
+            "protectedSnippet": "M:System.Drawing.Drawing2D.GraphicsPath.AddArc(System.Int32,System.Int32,System.Int32,System.Int32,System.Single,System.Single)",
+            "label": "M:System.Drawing.Drawing2D.GraphicsPath.AddArc(System.Int32,System.Int32,System.Int32,System.Int32,System.Single,System.Single)",
+            "properties": {
+              "PackageId": "System.Drawing.Common",
+              "PackageNewVersion": "8.0.6"
+            },
+            "line": 142,
+            "column": 12
+          }
+        },
+        {
+          "incidentId": "4b5837f2-eead-40eb-a6e1-d8444e5e813b",
+          "ruleId": "Api.0002",
+          "description": "API is available in package System.Drawing.Common, 8.0.6. Add package reference to System.Drawing.Common, 8.0.6",
+          "projectPath": "StreamDeckSahkonhinta.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "path.AddArc(bounds.X, bounds.Y, diameter, diameter, 180, 90);",
+              "protected": "M:System.Drawing.Drawing2D.GraphicsPath.AddArc(System.Int32,System.Int32,System.Int32,System.Int32,System.Single,System.Single)"
+            },
+            "kind": "File",
+            "path": "Services\\IconRenderer.cs",
+            "snippet": "path.AddArc(bounds.X, bounds.Y, diameter, diameter, 180, 90);",
+            "protectedSnippet": "M:System.Drawing.Drawing2D.GraphicsPath.AddArc(System.Int32,System.Int32,System.Int32,System.Int32,System.Single,System.Single)",
+            "label": "M:System.Drawing.Drawing2D.GraphicsPath.AddArc(System.Int32,System.Int32,System.Int32,System.Int32,System.Single,System.Single)",
+            "properties": {
+              "PackageId": "System.Drawing.Common",
+              "PackageNewVersion": "8.0.6"
+            },
+            "line": 141,
+            "column": 12
+          }
+        },
+        {
+          "incidentId": "92b6df4e-103f-4132-9137-80a2a829a900",
+          "ruleId": "Api.0002",
+          "description": "API is available in package System.Drawing.Common, 8.0.6. Add package reference to System.Drawing.Common, 8.0.6",
+          "projectPath": "StreamDeckSahkonhinta.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "var path = new GraphicsPath();",
+              "protected": "T:System.Drawing.Drawing2D.GraphicsPath"
+            },
+            "kind": "File",
+            "path": "Services\\IconRenderer.cs",
+            "snippet": "var path = new GraphicsPath();",
+            "protectedSnippet": "T:System.Drawing.Drawing2D.GraphicsPath",
+            "label": "T:System.Drawing.Drawing2D.GraphicsPath",
+            "properties": {
+              "PackageId": "System.Drawing.Common",
+              "PackageNewVersion": "8.0.6"
+            },
+            "line": 139,
+            "column": 12
+          }
+        },
+        {
+          "incidentId": "03533145-c888-46ed-af98-00d5e4e3f46c",
+          "ruleId": "Api.0002",
+          "description": "API is available in package System.Drawing.Common, 8.0.6. Add package reference to System.Drawing.Common, 8.0.6",
+          "projectPath": "StreamDeckSahkonhinta.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "var path = new GraphicsPath();",
+              "protected": "M:System.Drawing.Drawing2D.GraphicsPath.#ctor"
+            },
+            "kind": "File",
+            "path": "Services\\IconRenderer.cs",
+            "snippet": "var path = new GraphicsPath();",
+            "protectedSnippet": "M:System.Drawing.Drawing2D.GraphicsPath.#ctor",
+            "label": "M:System.Drawing.Drawing2D.GraphicsPath.#ctor",
+            "properties": {
+              "PackageId": "System.Drawing.Common",
+              "PackageNewVersion": "8.0.6"
+            },
+            "line": 139,
+            "column": 12
+          }
+        },
+        {
+          "incidentId": "48f4ac4b-a2d1-46b8-b9ec-16da4d53fb94",
+          "ruleId": "Api.0002",
+          "description": "API is available in package System.Drawing.Common, 8.0.6. Add package reference to System.Drawing.Common, 8.0.6",
+          "projectPath": "StreamDeckSahkonhinta.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "private static void DrawPriceText(Graphics g, string priceText, string unitText)",
+              "protected": "T:System.Drawing.Graphics"
+            },
+            "kind": "File",
+            "path": "Services\\IconRenderer.cs",
+            "snippet": "private static void DrawPriceText(Graphics g, string priceText, string unitText)",
+            "protectedSnippet": "T:System.Drawing.Graphics",
+            "label": "T:System.Drawing.Graphics",
+            "properties": {
+              "PackageId": "System.Drawing.Common",
+              "PackageNewVersion": "8.0.6"
+            },
+            "line": 118,
+            "column": 8
+          }
+        },
+        {
+          "incidentId": "d67347c6-f7a6-4eed-9140-17383bf2ab96",
+          "ruleId": "Api.0002",
+          "description": "API is available in package System.Drawing.Common, 8.0.6. Add package reference to System.Drawing.Common, 8.0.6",
+          "projectPath": "StreamDeckSahkonhinta.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "g.DrawString(unitText, unitFont, unitBrush, (Size - unitSize.Width) / 2f, 118f);",
+              "protected": "M:System.Drawing.Graphics.DrawString(System.String,System.Drawing.Font,System.Drawing.Brush,System.Single,System.Single)"
+            },
+            "kind": "File",
+            "path": "Services\\IconRenderer.cs",
+            "snippet": "g.DrawString(unitText, unitFont, unitBrush, (Size - unitSize.Width) / 2f, 118f);",
+            "protectedSnippet": "M:System.Drawing.Graphics.DrawString(System.String,System.Drawing.Font,System.Drawing.Brush,System.Single,System.Single)",
+            "label": "M:System.Drawing.Graphics.DrawString(System.String,System.Drawing.Font,System.Drawing.Brush,System.Single,System.Single)",
+            "properties": {
+              "PackageId": "System.Drawing.Common",
+              "PackageNewVersion": "8.0.6"
+            },
+            "line": 133,
+            "column": 12
+          }
+        },
+        {
+          "incidentId": "7702dc73-2854-4a7c-b062-4605aca3c3aa",
+          "ruleId": "Api.0002",
+          "description": "API is available in package System.Drawing.Common, 8.0.6. Add package reference to System.Drawing.Common, 8.0.6",
+          "projectPath": "StreamDeckSahkonhinta.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "var unitSize = g.MeasureString(unitText, unitFont);",
+              "protected": "M:System.Drawing.Graphics.MeasureString(System.String,System.Drawing.Font)"
+            },
+            "kind": "File",
+            "path": "Services\\IconRenderer.cs",
+            "snippet": "var unitSize = g.MeasureString(unitText, unitFont);",
+            "protectedSnippet": "M:System.Drawing.Graphics.MeasureString(System.String,System.Drawing.Font)",
+            "label": "M:System.Drawing.Graphics.MeasureString(System.String,System.Drawing.Font)",
+            "properties": {
+              "PackageId": "System.Drawing.Common",
+              "PackageNewVersion": "8.0.6"
+            },
+            "line": 132,
+            "column": 12
+          }
+        },
+        {
+          "incidentId": "bf13b1d5-a423-4c20-b12a-9171ee6b2baa",
+          "ruleId": "Api.0002",
+          "description": "API is available in package System.Drawing.Common, 8.0.6. Add package reference to System.Drawing.Common, 8.0.6",
+          "projectPath": "StreamDeckSahkonhinta.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "using var unitBrush = new SolidBrush(Color.LightGray);",
+              "protected": "T:System.Drawing.SolidBrush"
+            },
+            "kind": "File",
+            "path": "Services\\IconRenderer.cs",
+            "snippet": "using var unitBrush = new SolidBrush(Color.LightGray);",
+            "protectedSnippet": "T:System.Drawing.SolidBrush",
+            "label": "T:System.Drawing.SolidBrush",
+            "properties": {
+              "PackageId": "System.Drawing.Common",
+              "PackageNewVersion": "8.0.6"
+            },
+            "line": 131,
+            "column": 12
+          }
+        },
+        {
+          "incidentId": "336be303-94be-4d79-8c43-ebf6c28cb269",
+          "ruleId": "Api.0002",
+          "description": "API is available in package System.Drawing.Common, 8.0.6. Add package reference to System.Drawing.Common, 8.0.6",
+          "projectPath": "StreamDeckSahkonhinta.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "using var unitBrush = new SolidBrush(Color.LightGray);",
+              "protected": "M:System.Drawing.SolidBrush.#ctor(System.Drawing.Color)"
+            },
+            "kind": "File",
+            "path": "Services\\IconRenderer.cs",
+            "snippet": "using var unitBrush = new SolidBrush(Color.LightGray);",
+            "protectedSnippet": "M:System.Drawing.SolidBrush.#ctor(System.Drawing.Color)",
+            "label": "M:System.Drawing.SolidBrush.#ctor(System.Drawing.Color)",
+            "properties": {
+              "PackageId": "System.Drawing.Common",
+              "PackageNewVersion": "8.0.6"
+            },
+            "line": 131,
+            "column": 12
+          }
+        },
+        {
+          "incidentId": "a1aa9f27-c42a-4a03-b4e8-41464f7ef4e4",
+          "ruleId": "Api.0002",
+          "description": "API is available in package System.Drawing.Common, 8.0.6. Add package reference to System.Drawing.Common, 8.0.6",
+          "projectPath": "StreamDeckSahkonhinta.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "using var unitFont = new Font(\u0022Segoe UI\u0022, 13, FontStyle.Regular, GraphicsUnit.Pixel);",
+              "protected": "T:System.Drawing.GraphicsUnit"
+            },
+            "kind": "File",
+            "path": "Services\\IconRenderer.cs",
+            "snippet": "using var unitFont = new Font(\u0022Segoe UI\u0022, 13, FontStyle.Regular, GraphicsUnit.Pixel);",
+            "protectedSnippet": "T:System.Drawing.GraphicsUnit",
+            "label": "T:System.Drawing.GraphicsUnit",
+            "properties": {
+              "PackageId": "System.Drawing.Common",
+              "PackageNewVersion": "8.0.6"
+            },
+            "line": 130,
+            "column": 12
+          }
+        },
+        {
+          "incidentId": "f1f74aee-60df-4358-a770-890ab3382049",
+          "ruleId": "Api.0002",
+          "description": "API is available in package System.Drawing.Common, 8.0.6. Add package reference to System.Drawing.Common, 8.0.6",
+          "projectPath": "StreamDeckSahkonhinta.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "using var unitFont = new Font(\u0022Segoe UI\u0022, 13, FontStyle.Regular, GraphicsUnit.Pixel);",
+              "protected": "T:System.Drawing.GraphicsUnit"
+            },
+            "kind": "File",
+            "path": "Services\\IconRenderer.cs",
+            "snippet": "using var unitFont = new Font(\u0022Segoe UI\u0022, 13, FontStyle.Regular, GraphicsUnit.Pixel);",
+            "protectedSnippet": "T:System.Drawing.GraphicsUnit",
+            "label": "T:System.Drawing.GraphicsUnit",
+            "properties": {
+              "PackageId": "System.Drawing.Common",
+              "PackageNewVersion": "8.0.6"
+            },
+            "line": 130,
+            "column": 12
+          }
+        },
+        {
+          "incidentId": "19b7418d-bedb-4467-9033-f23bc6c2a204",
+          "ruleId": "Api.0002",
+          "description": "API is available in package System.Drawing.Common, 8.0.6. Add package reference to System.Drawing.Common, 8.0.6",
+          "projectPath": "StreamDeckSahkonhinta.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "using var unitFont = new Font(\u0022Segoe UI\u0022, 13, FontStyle.Regular, GraphicsUnit.Pixel);",
+              "protected": "F:System.Drawing.GraphicsUnit.Pixel"
+            },
+            "kind": "File",
+            "path": "Services\\IconRenderer.cs",
+            "snippet": "using var unitFont = new Font(\u0022Segoe UI\u0022, 13, FontStyle.Regular, GraphicsUnit.Pixel);",
+            "protectedSnippet": "F:System.Drawing.GraphicsUnit.Pixel",
+            "label": "F:System.Drawing.GraphicsUnit.Pixel",
+            "properties": {
+              "PackageId": "System.Drawing.Common",
+              "PackageNewVersion": "8.0.6"
+            },
+            "line": 130,
+            "column": 12
+          }
+        },
+        {
+          "incidentId": "0a8857d7-a5e9-4e78-b353-27b768bedbd8",
+          "ruleId": "Api.0002",
+          "description": "API is available in package System.Drawing.Common, 8.0.6. Add package reference to System.Drawing.Common, 8.0.6",
+          "projectPath": "StreamDeckSahkonhinta.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "using var unitFont = new Font(\u0022Segoe UI\u0022, 13, FontStyle.Regular, GraphicsUnit.Pixel);",
+              "protected": "T:System.Drawing.FontStyle"
+            },
+            "kind": "File",
+            "path": "Services\\IconRenderer.cs",
+            "snippet": "using var unitFont = new Font(\u0022Segoe UI\u0022, 13, FontStyle.Regular, GraphicsUnit.Pixel);",
+            "protectedSnippet": "T:System.Drawing.FontStyle",
+            "label": "T:System.Drawing.FontStyle",
+            "properties": {
+              "PackageId": "System.Drawing.Common",
+              "PackageNewVersion": "8.0.6"
+            },
+            "line": 130,
+            "column": 12
+          }
+        },
+        {
+          "incidentId": "a57ddd58-482b-43ad-ba3e-dc075b29672f",
+          "ruleId": "Api.0002",
+          "description": "API is available in package System.Drawing.Common, 8.0.6. Add package reference to System.Drawing.Common, 8.0.6",
+          "projectPath": "StreamDeckSahkonhinta.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "using var unitFont = new Font(\u0022Segoe UI\u0022, 13, FontStyle.Regular, GraphicsUnit.Pixel);",
+              "protected": "T:System.Drawing.FontStyle"
+            },
+            "kind": "File",
+            "path": "Services\\IconRenderer.cs",
+            "snippet": "using var unitFont = new Font(\u0022Segoe UI\u0022, 13, FontStyle.Regular, GraphicsUnit.Pixel);",
+            "protectedSnippet": "T:System.Drawing.FontStyle",
+            "label": "T:System.Drawing.FontStyle",
+            "properties": {
+              "PackageId": "System.Drawing.Common",
+              "PackageNewVersion": "8.0.6"
+            },
+            "line": 130,
+            "column": 12
+          }
+        },
+        {
+          "incidentId": "e527d222-2cd7-4fea-ac09-975141d807d3",
+          "ruleId": "Api.0002",
+          "description": "API is available in package System.Drawing.Common, 8.0.6. Add package reference to System.Drawing.Common, 8.0.6",
+          "projectPath": "StreamDeckSahkonhinta.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "using var unitFont = new Font(\u0022Segoe UI\u0022, 13, FontStyle.Regular, GraphicsUnit.Pixel);",
+              "protected": "F:System.Drawing.FontStyle.Regular"
+            },
+            "kind": "File",
+            "path": "Services\\IconRenderer.cs",
+            "snippet": "using var unitFont = new Font(\u0022Segoe UI\u0022, 13, FontStyle.Regular, GraphicsUnit.Pixel);",
+            "protectedSnippet": "F:System.Drawing.FontStyle.Regular",
+            "label": "F:System.Drawing.FontStyle.Regular",
+            "properties": {
+              "PackageId": "System.Drawing.Common",
+              "PackageNewVersion": "8.0.6"
+            },
+            "line": 130,
+            "column": 12
+          }
+        },
+        {
+          "incidentId": "9eb99c74-148b-4548-85f1-105651342841",
+          "ruleId": "Api.0002",
+          "description": "API is available in package System.Drawing.Common, 8.0.6. Add package reference to System.Drawing.Common, 8.0.6",
+          "projectPath": "StreamDeckSahkonhinta.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "using var unitFont = new Font(\u0022Segoe UI\u0022, 13, FontStyle.Regular, GraphicsUnit.Pixel);",
+              "protected": "T:System.Drawing.Font"
+            },
+            "kind": "File",
+            "path": "Services\\IconRenderer.cs",
+            "snippet": "using var unitFont = new Font(\u0022Segoe UI\u0022, 13, FontStyle.Regular, GraphicsUnit.Pixel);",
+            "protectedSnippet": "T:System.Drawing.Font",
+            "label": "T:System.Drawing.Font",
+            "properties": {
+              "PackageId": "System.Drawing.Common",
+              "PackageNewVersion": "8.0.6"
+            },
+            "line": 130,
+            "column": 12
+          }
+        },
+        {
+          "incidentId": "5e5a64ae-bc43-429e-b868-56f3bc09555e",
+          "ruleId": "Api.0002",
+          "description": "API is available in package System.Drawing.Common, 8.0.6. Add package reference to System.Drawing.Common, 8.0.6",
+          "projectPath": "StreamDeckSahkonhinta.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "using var unitFont = new Font(\u0022Segoe UI\u0022, 13, FontStyle.Regular, GraphicsUnit.Pixel);",
+              "protected": "M:System.Drawing.Font.#ctor(System.String,System.Single,System.Drawing.FontStyle,System.Drawing.GraphicsUnit)"
+            },
+            "kind": "File",
+            "path": "Services\\IconRenderer.cs",
+            "snippet": "using var unitFont = new Font(\u0022Segoe UI\u0022, 13, FontStyle.Regular, GraphicsUnit.Pixel);",
+            "protectedSnippet": "M:System.Drawing.Font.#ctor(System.String,System.Single,System.Drawing.FontStyle,System.Drawing.GraphicsUnit)",
+            "label": "M:System.Drawing.Font.#ctor(System.String,System.Single,System.Drawing.FontStyle,System.Drawing.GraphicsUnit)",
+            "properties": {
+              "PackageId": "System.Drawing.Common",
+              "PackageNewVersion": "8.0.6"
+            },
+            "line": 130,
+            "column": 12
+          }
+        },
+        {
+          "incidentId": "7e2d2e44-a49d-4856-80cd-bc8d7bfa54fa",
+          "ruleId": "Api.0002",
+          "description": "API is available in package System.Drawing.Common, 8.0.6. Add package reference to System.Drawing.Common, 8.0.6",
+          "projectPath": "StreamDeckSahkonhinta.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "g.DrawString(priceText, priceFont, priceBrush, (Size - priceSize.Width) / 2f, 92f);",
+              "protected": "M:System.Drawing.Graphics.DrawString(System.String,System.Drawing.Font,System.Drawing.Brush,System.Single,System.Single)"
+            },
+            "kind": "File",
+            "path": "Services\\IconRenderer.cs",
+            "snippet": "g.DrawString(priceText, priceFont, priceBrush, (Size - priceSize.Width) / 2f, 92f);",
+            "protectedSnippet": "M:System.Drawing.Graphics.DrawString(System.String,System.Drawing.Font,System.Drawing.Brush,System.Single,System.Single)",
+            "label": "M:System.Drawing.Graphics.DrawString(System.String,System.Drawing.Font,System.Drawing.Brush,System.Single,System.Single)",
+            "properties": {
+              "PackageId": "System.Drawing.Common",
+              "PackageNewVersion": "8.0.6"
+            },
+            "line": 123,
+            "column": 12
+          }
+        },
+        {
+          "incidentId": "04b05255-7fb7-40d3-ac84-81468bb8e96e",
+          "ruleId": "Api.0002",
+          "description": "API is available in package System.Drawing.Common, 8.0.6. Add package reference to System.Drawing.Common, 8.0.6",
+          "projectPath": "StreamDeckSahkonhinta.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "var priceSize = g.MeasureString(priceText, priceFont);",
+              "protected": "M:System.Drawing.Graphics.MeasureString(System.String,System.Drawing.Font)"
+            },
+            "kind": "File",
+            "path": "Services\\IconRenderer.cs",
+            "snippet": "var priceSize = g.MeasureString(priceText, priceFont);",
+            "protectedSnippet": "M:System.Drawing.Graphics.MeasureString(System.String,System.Drawing.Font)",
+            "label": "M:System.Drawing.Graphics.MeasureString(System.String,System.Drawing.Font)",
+            "properties": {
+              "PackageId": "System.Drawing.Common",
+              "PackageNewVersion": "8.0.6"
+            },
+            "line": 122,
+            "column": 12
+          }
+        },
+        {
+          "incidentId": "fd61aac2-1560-4a2d-bf9e-6ee9bf0382d0",
+          "ruleId": "Api.0002",
+          "description": "API is available in package System.Drawing.Common, 8.0.6. Add package reference to System.Drawing.Common, 8.0.6",
+          "projectPath": "StreamDeckSahkonhinta.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "using var priceBrush = new SolidBrush(Color.White);",
+              "protected": "T:System.Drawing.SolidBrush"
+            },
+            "kind": "File",
+            "path": "Services\\IconRenderer.cs",
+            "snippet": "using var priceBrush = new SolidBrush(Color.White);",
+            "protectedSnippet": "T:System.Drawing.SolidBrush",
+            "label": "T:System.Drawing.SolidBrush",
+            "properties": {
+              "PackageId": "System.Drawing.Common",
+              "PackageNewVersion": "8.0.6"
+            },
+            "line": 121,
+            "column": 12
+          }
+        },
+        {
+          "incidentId": "65e6e734-7b6d-4311-8578-58c2de2e2a64",
+          "ruleId": "Api.0002",
+          "description": "API is available in package System.Drawing.Common, 8.0.6. Add package reference to System.Drawing.Common, 8.0.6",
+          "projectPath": "StreamDeckSahkonhinta.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "using var priceBrush = new SolidBrush(Color.White);",
+              "protected": "M:System.Drawing.SolidBrush.#ctor(System.Drawing.Color)"
+            },
+            "kind": "File",
+            "path": "Services\\IconRenderer.cs",
+            "snippet": "using var priceBrush = new SolidBrush(Color.White);",
+            "protectedSnippet": "M:System.Drawing.SolidBrush.#ctor(System.Drawing.Color)",
+            "label": "M:System.Drawing.SolidBrush.#ctor(System.Drawing.Color)",
+            "properties": {
+              "PackageId": "System.Drawing.Common",
+              "PackageNewVersion": "8.0.6"
+            },
+            "line": 121,
+            "column": 12
+          }
+        },
+        {
+          "incidentId": "4a8d4fca-1ea9-42cd-8c40-b4492041da90",
+          "ruleId": "Api.0002",
+          "description": "API is available in package System.Drawing.Common, 8.0.6. Add package reference to System.Drawing.Common, 8.0.6",
+          "projectPath": "StreamDeckSahkonhinta.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "using var priceFont = new Font(\u0022Segoe UI\u0022, 26, FontStyle.Bold, GraphicsUnit.Pixel);",
+              "protected": "T:System.Drawing.GraphicsUnit"
+            },
+            "kind": "File",
+            "path": "Services\\IconRenderer.cs",
+            "snippet": "using var priceFont = new Font(\u0022Segoe UI\u0022, 26, FontStyle.Bold, GraphicsUnit.Pixel);",
+            "protectedSnippet": "T:System.Drawing.GraphicsUnit",
+            "label": "T:System.Drawing.GraphicsUnit",
+            "properties": {
+              "PackageId": "System.Drawing.Common",
+              "PackageNewVersion": "8.0.6"
+            },
+            "line": 120,
+            "column": 12
+          }
+        },
+        {
+          "incidentId": "fc384f8d-5ead-41ac-923b-06cbe1173859",
+          "ruleId": "Api.0002",
+          "description": "API is available in package System.Drawing.Common, 8.0.6. Add package reference to System.Drawing.Common, 8.0.6",
+          "projectPath": "StreamDeckSahkonhinta.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "using var priceFont = new Font(\u0022Segoe UI\u0022, 26, FontStyle.Bold, GraphicsUnit.Pixel);",
+              "protected": "T:System.Drawing.GraphicsUnit"
+            },
+            "kind": "File",
+            "path": "Services\\IconRenderer.cs",
+            "snippet": "using var priceFont = new Font(\u0022Segoe UI\u0022, 26, FontStyle.Bold, GraphicsUnit.Pixel);",
+            "protectedSnippet": "T:System.Drawing.GraphicsUnit",
+            "label": "T:System.Drawing.GraphicsUnit",
+            "properties": {
+              "PackageId": "System.Drawing.Common",
+              "PackageNewVersion": "8.0.6"
+            },
+            "line": 120,
+            "column": 12
+          }
+        },
+        {
+          "incidentId": "c3e6541c-7572-4942-8814-66c1d1abeaa4",
+          "ruleId": "Api.0002",
+          "description": "API is available in package System.Drawing.Common, 8.0.6. Add package reference to System.Drawing.Common, 8.0.6",
+          "projectPath": "StreamDeckSahkonhinta.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "using var priceFont = new Font(\u0022Segoe UI\u0022, 26, FontStyle.Bold, GraphicsUnit.Pixel);",
+              "protected": "F:System.Drawing.GraphicsUnit.Pixel"
+            },
+            "kind": "File",
+            "path": "Services\\IconRenderer.cs",
+            "snippet": "using var priceFont = new Font(\u0022Segoe UI\u0022, 26, FontStyle.Bold, GraphicsUnit.Pixel);",
+            "protectedSnippet": "F:System.Drawing.GraphicsUnit.Pixel",
+            "label": "F:System.Drawing.GraphicsUnit.Pixel",
+            "properties": {
+              "PackageId": "System.Drawing.Common",
+              "PackageNewVersion": "8.0.6"
+            },
+            "line": 120,
+            "column": 12
+          }
+        },
+        {
+          "incidentId": "2928db20-6092-4159-9fd9-a4b8c448f959",
+          "ruleId": "Api.0002",
+          "description": "API is available in package System.Drawing.Common, 8.0.6. Add package reference to System.Drawing.Common, 8.0.6",
+          "projectPath": "StreamDeckSahkonhinta.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "using var priceFont = new Font(\u0022Segoe UI\u0022, 26, FontStyle.Bold, GraphicsUnit.Pixel);",
+              "protected": "T:System.Drawing.FontStyle"
+            },
+            "kind": "File",
+            "path": "Services\\IconRenderer.cs",
+            "snippet": "using var priceFont = new Font(\u0022Segoe UI\u0022, 26, FontStyle.Bold, GraphicsUnit.Pixel);",
+            "protectedSnippet": "T:System.Drawing.FontStyle",
+            "label": "T:System.Drawing.FontStyle",
+            "properties": {
+              "PackageId": "System.Drawing.Common",
+              "PackageNewVersion": "8.0.6"
+            },
+            "line": 120,
+            "column": 12
+          }
+        },
+        {
+          "incidentId": "7c803c90-b882-45c7-be36-f0b6bcf1e774",
+          "ruleId": "Api.0002",
+          "description": "API is available in package System.Drawing.Common, 8.0.6. Add package reference to System.Drawing.Common, 8.0.6",
+          "projectPath": "StreamDeckSahkonhinta.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "using var priceFont = new Font(\u0022Segoe UI\u0022, 26, FontStyle.Bold, GraphicsUnit.Pixel);",
+              "protected": "T:System.Drawing.FontStyle"
+            },
+            "kind": "File",
+            "path": "Services\\IconRenderer.cs",
+            "snippet": "using var priceFont = new Font(\u0022Segoe UI\u0022, 26, FontStyle.Bold, GraphicsUnit.Pixel);",
+            "protectedSnippet": "T:System.Drawing.FontStyle",
+            "label": "T:System.Drawing.FontStyle",
+            "properties": {
+              "PackageId": "System.Drawing.Common",
+              "PackageNewVersion": "8.0.6"
+            },
+            "line": 120,
+            "column": 12
+          }
+        },
+        {
+          "incidentId": "d7812faf-6d3c-4907-b76e-120c16689e29",
+          "ruleId": "Api.0002",
+          "description": "API is available in package System.Drawing.Common, 8.0.6. Add package reference to System.Drawing.Common, 8.0.6",
+          "projectPath": "StreamDeckSahkonhinta.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "using var priceFont = new Font(\u0022Segoe UI\u0022, 26, FontStyle.Bold, GraphicsUnit.Pixel);",
+              "protected": "F:System.Drawing.FontStyle.Bold"
+            },
+            "kind": "File",
+            "path": "Services\\IconRenderer.cs",
+            "snippet": "using var priceFont = new Font(\u0022Segoe UI\u0022, 26, FontStyle.Bold, GraphicsUnit.Pixel);",
+            "protectedSnippet": "F:System.Drawing.FontStyle.Bold",
+            "label": "F:System.Drawing.FontStyle.Bold",
+            "properties": {
+              "PackageId": "System.Drawing.Common",
+              "PackageNewVersion": "8.0.6"
+            },
+            "line": 120,
+            "column": 12
+          }
+        },
+        {
+          "incidentId": "94057eab-f1b9-45a1-8b6e-601da68c03d0",
+          "ruleId": "Api.0002",
+          "description": "API is available in package System.Drawing.Common, 8.0.6. Add package reference to System.Drawing.Common, 8.0.6",
+          "projectPath": "StreamDeckSahkonhinta.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "using var priceFont = new Font(\u0022Segoe UI\u0022, 26, FontStyle.Bold, GraphicsUnit.Pixel);",
+              "protected": "T:System.Drawing.Font"
+            },
+            "kind": "File",
+            "path": "Services\\IconRenderer.cs",
+            "snippet": "using var priceFont = new Font(\u0022Segoe UI\u0022, 26, FontStyle.Bold, GraphicsUnit.Pixel);",
+            "protectedSnippet": "T:System.Drawing.Font",
+            "label": "T:System.Drawing.Font",
+            "properties": {
+              "PackageId": "System.Drawing.Common",
+              "PackageNewVersion": "8.0.6"
+            },
+            "line": 120,
+            "column": 12
+          }
+        },
+        {
+          "incidentId": "cc45829b-cbb0-4bb1-9665-f9f47fa02fbc",
+          "ruleId": "Api.0002",
+          "description": "API is available in package System.Drawing.Common, 8.0.6. Add package reference to System.Drawing.Common, 8.0.6",
+          "projectPath": "StreamDeckSahkonhinta.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "using var priceFont = new Font(\u0022Segoe UI\u0022, 26, FontStyle.Bold, GraphicsUnit.Pixel);",
+              "protected": "M:System.Drawing.Font.#ctor(System.String,System.Single,System.Drawing.FontStyle,System.Drawing.GraphicsUnit)"
+            },
+            "kind": "File",
+            "path": "Services\\IconRenderer.cs",
+            "snippet": "using var priceFont = new Font(\u0022Segoe UI\u0022, 26, FontStyle.Bold, GraphicsUnit.Pixel);",
+            "protectedSnippet": "M:System.Drawing.Font.#ctor(System.String,System.Single,System.Drawing.FontStyle,System.Drawing.GraphicsUnit)",
+            "label": "M:System.Drawing.Font.#ctor(System.String,System.Single,System.Drawing.FontStyle,System.Drawing.GraphicsUnit)",
+            "properties": {
+              "PackageId": "System.Drawing.Common",
+              "PackageNewVersion": "8.0.6"
+            },
+            "line": 120,
+            "column": 12
+          }
+        },
+        {
+          "incidentId": "b5cbb65b-1aef-461d-a1ef-78e630cd6114",
+          "ruleId": "Api.0002",
+          "description": "API is available in package System.Drawing.Common, 8.0.6. Add package reference to System.Drawing.Common, 8.0.6",
+          "projectPath": "StreamDeckSahkonhinta.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "private static void DrawBolt(Graphics g, Color accent)",
+              "protected": "T:System.Drawing.Graphics"
+            },
+            "kind": "File",
+            "path": "Services\\IconRenderer.cs",
+            "snippet": "private static void DrawBolt(Graphics g, Color accent)",
+            "protectedSnippet": "T:System.Drawing.Graphics",
+            "label": "T:System.Drawing.Graphics",
+            "properties": {
+              "PackageId": "System.Drawing.Common",
+              "PackageNewVersion": "8.0.6"
+            },
+            "line": 80,
+            "column": 8
+          }
+        },
+        {
+          "incidentId": "2ed6cf76-d6d6-40b4-ac71-3637e6c5baf8",
+          "ruleId": "Api.0002",
+          "description": "API is available in package System.Drawing.Common, 8.0.6. Add package reference to System.Drawing.Common, 8.0.6",
+          "projectPath": "StreamDeckSahkonhinta.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "g.FillPolygon(brush, BoltPoints());",
+              "protected": "M:System.Drawing.Graphics.FillPolygon(System.Drawing.Brush,System.Drawing.PointF[])"
+            },
+            "kind": "File",
+            "path": "Services\\IconRenderer.cs",
+            "snippet": "g.FillPolygon(brush, BoltPoints());",
+            "protectedSnippet": "M:System.Drawing.Graphics.FillPolygon(System.Drawing.Brush,System.Drawing.PointF[])",
+            "label": "M:System.Drawing.Graphics.FillPolygon(System.Drawing.Brush,System.Drawing.PointF[])",
+            "properties": {
+              "PackageId": "System.Drawing.Common",
+              "PackageNewVersion": "8.0.6"
+            },
+            "line": 83,
+            "column": 12
+          }
+        },
+        {
+          "incidentId": "4c80f579-6ef6-4a76-aa38-f760b8c5a584",
+          "ruleId": "Api.0002",
+          "description": "API is available in package System.Drawing.Common, 8.0.6. Add package reference to System.Drawing.Common, 8.0.6",
+          "projectPath": "StreamDeckSahkonhinta.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "using var brush = new SolidBrush(accent);",
+              "protected": "T:System.Drawing.SolidBrush"
+            },
+            "kind": "File",
+            "path": "Services\\IconRenderer.cs",
+            "snippet": "using var brush = new SolidBrush(accent);",
+            "protectedSnippet": "T:System.Drawing.SolidBrush",
+            "label": "T:System.Drawing.SolidBrush",
+            "properties": {
+              "PackageId": "System.Drawing.Common",
+              "PackageNewVersion": "8.0.6"
+            },
+            "line": 82,
+            "column": 12
+          }
+        },
+        {
+          "incidentId": "194292e9-dc07-4e86-a929-43b2748f8529",
+          "ruleId": "Api.0002",
+          "description": "API is available in package System.Drawing.Common, 8.0.6. Add package reference to System.Drawing.Common, 8.0.6",
+          "projectPath": "StreamDeckSahkonhinta.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "using var brush = new SolidBrush(accent);",
+              "protected": "M:System.Drawing.SolidBrush.#ctor(System.Drawing.Color)"
+            },
+            "kind": "File",
+            "path": "Services\\IconRenderer.cs",
+            "snippet": "using var brush = new SolidBrush(accent);",
+            "protectedSnippet": "M:System.Drawing.SolidBrush.#ctor(System.Drawing.Color)",
+            "label": "M:System.Drawing.SolidBrush.#ctor(System.Drawing.Color)",
+            "properties": {
+              "PackageId": "System.Drawing.Common",
+              "PackageNewVersion": "8.0.6"
+            },
+            "line": 82,
+            "column": 12
+          }
+        },
+        {
+          "incidentId": "f43e15cc-14f7-4361-94de-0b95e7eed1c3",
+          "ruleId": "Api.0002",
+          "description": "API is available in package System.Drawing.Common, 8.0.6. Add package reference to System.Drawing.Common, 8.0.6",
+          "projectPath": "StreamDeckSahkonhinta.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "private static void DrawGaugeArc(Graphics g, Color accent)",
+              "protected": "T:System.Drawing.Graphics"
+            },
+            "kind": "File",
+            "path": "Services\\IconRenderer.cs",
+            "snippet": "private static void DrawGaugeArc(Graphics g, Color accent)",
+            "protectedSnippet": "T:System.Drawing.Graphics",
+            "label": "T:System.Drawing.Graphics",
+            "properties": {
+              "PackageId": "System.Drawing.Common",
+              "PackageNewVersion": "8.0.6"
+            },
+            "line": 66,
+            "column": 8
+          }
+        },
+        {
+          "incidentId": "768e84bd-11d9-4e07-9bbb-2b0cbc4b44fb",
+          "ruleId": "Api.0002",
+          "description": "API is available in package System.Drawing.Common, 8.0.6. Add package reference to System.Drawing.Common, 8.0.6",
+          "projectPath": "StreamDeckSahkonhinta.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "g.DrawArc(pen, arcRect, 120, 300);",
+              "protected": "M:System.Drawing.Graphics.DrawArc(System.Drawing.Pen,System.Drawing.Rectangle,System.Single,System.Single)"
+            },
+            "kind": "File",
+            "path": "Services\\IconRenderer.cs",
+            "snippet": "g.DrawArc(pen, arcRect, 120, 300);",
+            "protectedSnippet": "M:System.Drawing.Graphics.DrawArc(System.Drawing.Pen,System.Drawing.Rectangle,System.Single,System.Single)",
+            "label": "M:System.Drawing.Graphics.DrawArc(System.Drawing.Pen,System.Drawing.Rectangle,System.Single,System.Single)",
+            "properties": {
+              "PackageId": "System.Drawing.Common",
+              "PackageNewVersion": "8.0.6"
+            },
+            "line": 77,
+            "column": 12
+          }
+        },
+        {
+          "incidentId": "c63b27a6-51c1-49ff-9f1b-63e3e6f94796",
+          "ruleId": "Api.0002",
+          "description": "API is available in package System.Drawing.Common, 8.0.6. Add package reference to System.Drawing.Common, 8.0.6",
+          "projectPath": "StreamDeckSahkonhinta.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "using var pen = new Pen(accent, 12)\r\n            {\r\n                StartCap = LineCap.Round,\r\n                EndCap = LineCap.Round,\r\n            };",
+              "protected": "T:System.Drawing.Drawing2D.LineCap"
+            },
+            "kind": "File",
+            "path": "Services\\IconRenderer.cs",
+            "snippet": "using var pen = new Pen(accent, 12)\r\n            {\r\n                StartCap = LineCap.Round,\r\n                EndCap = LineCap.Round,\r\n            };",
+            "protectedSnippet": "T:System.Drawing.Drawing2D.LineCap",
+            "label": "T:System.Drawing.Drawing2D.LineCap",
+            "properties": {
+              "PackageId": "System.Drawing.Common",
+              "PackageNewVersion": "8.0.6"
+            },
+            "line": 69,
+            "column": 12
+          }
+        },
+        {
+          "incidentId": "421dd63b-a787-4126-8433-d65205df77a5",
+          "ruleId": "Api.0002",
+          "description": "API is available in package System.Drawing.Common, 8.0.6. Add package reference to System.Drawing.Common, 8.0.6",
+          "projectPath": "StreamDeckSahkonhinta.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "using var pen = new Pen(accent, 12)\r\n            {\r\n                StartCap = LineCap.Round,\r\n                EndCap = LineCap.Round,\r\n            };",
+              "protected": "T:System.Drawing.Drawing2D.LineCap"
+            },
+            "kind": "File",
+            "path": "Services\\IconRenderer.cs",
+            "snippet": "using var pen = new Pen(accent, 12)\r\n            {\r\n                StartCap = LineCap.Round,\r\n                EndCap = LineCap.Round,\r\n            };",
+            "protectedSnippet": "T:System.Drawing.Drawing2D.LineCap",
+            "label": "T:System.Drawing.Drawing2D.LineCap",
+            "properties": {
+              "PackageId": "System.Drawing.Common",
+              "PackageNewVersion": "8.0.6"
+            },
+            "line": 69,
+            "column": 12
+          }
+        },
+        {
+          "incidentId": "21f54fde-7b63-4c31-b1ed-c908b1ef3557",
+          "ruleId": "Api.0002",
+          "description": "API is available in package System.Drawing.Common, 8.0.6. Add package reference to System.Drawing.Common, 8.0.6",
+          "projectPath": "StreamDeckSahkonhinta.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "using var pen = new Pen(accent, 12)\r\n            {\r\n                StartCap = LineCap.Round,\r\n                EndCap = LineCap.Round,\r\n            };",
+              "protected": "F:System.Drawing.Drawing2D.LineCap.Round"
+            },
+            "kind": "File",
+            "path": "Services\\IconRenderer.cs",
+            "snippet": "using var pen = new Pen(accent, 12)\r\n            {\r\n                StartCap = LineCap.Round,\r\n                EndCap = LineCap.Round,\r\n            };",
+            "protectedSnippet": "F:System.Drawing.Drawing2D.LineCap.Round",
+            "label": "F:System.Drawing.Drawing2D.LineCap.Round",
+            "properties": {
+              "PackageId": "System.Drawing.Common",
+              "PackageNewVersion": "8.0.6"
+            },
+            "line": 69,
+            "column": 12
+          }
+        },
+        {
+          "incidentId": "f26be0af-e622-4d82-aa72-4e843e668cc7",
+          "ruleId": "Api.0002",
+          "description": "API is available in package System.Drawing.Common, 8.0.6. Add package reference to System.Drawing.Common, 8.0.6",
+          "projectPath": "StreamDeckSahkonhinta.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "using var pen = new Pen(accent, 12)\r\n            {\r\n                StartCap = LineCap.Round,\r\n                EndCap = LineCap.Round,\r\n            };",
+              "protected": "T:System.Drawing.Drawing2D.LineCap"
+            },
+            "kind": "File",
+            "path": "Services\\IconRenderer.cs",
+            "snippet": "using var pen = new Pen(accent, 12)\r\n            {\r\n                StartCap = LineCap.Round,\r\n                EndCap = LineCap.Round,\r\n            };",
+            "protectedSnippet": "T:System.Drawing.Drawing2D.LineCap",
+            "label": "T:System.Drawing.Drawing2D.LineCap",
+            "properties": {
+              "PackageId": "System.Drawing.Common",
+              "PackageNewVersion": "8.0.6"
+            },
+            "line": 69,
+            "column": 12
+          }
+        },
+        {
+          "incidentId": "002c28a9-c0fa-4557-b29f-875f88223db0",
+          "ruleId": "Api.0002",
+          "description": "API is available in package System.Drawing.Common, 8.0.6. Add package reference to System.Drawing.Common, 8.0.6",
+          "projectPath": "StreamDeckSahkonhinta.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "using var pen = new Pen(accent, 12)\r\n            {\r\n                StartCap = LineCap.Round,\r\n                EndCap = LineCap.Round,\r\n            };",
+              "protected": "P:System.Drawing.Pen.EndCap"
+            },
+            "kind": "File",
+            "path": "Services\\IconRenderer.cs",
+            "snippet": "using var pen = new Pen(accent, 12)\r\n            {\r\n                StartCap = LineCap.Round,\r\n                EndCap = LineCap.Round,\r\n            };",
+            "protectedSnippet": "P:System.Drawing.Pen.EndCap",
+            "label": "P:System.Drawing.Pen.EndCap",
+            "properties": {
+              "PackageId": "System.Drawing.Common",
+              "PackageNewVersion": "8.0.6"
+            },
+            "line": 69,
+            "column": 12
+          }
+        },
+        {
+          "incidentId": "48efb137-4694-4d1e-809d-fac72160d812",
+          "ruleId": "Api.0002",
+          "description": "API is available in package System.Drawing.Common, 8.0.6. Add package reference to System.Drawing.Common, 8.0.6",
+          "projectPath": "StreamDeckSahkonhinta.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "using var pen = new Pen(accent, 12)\r\n            {\r\n                StartCap = LineCap.Round,\r\n                EndCap = LineCap.Round,\r\n            };",
+              "protected": "T:System.Drawing.Drawing2D.LineCap"
+            },
+            "kind": "File",
+            "path": "Services\\IconRenderer.cs",
+            "snippet": "using var pen = new Pen(accent, 12)\r\n            {\r\n                StartCap = LineCap.Round,\r\n                EndCap = LineCap.Round,\r\n            };",
+            "protectedSnippet": "T:System.Drawing.Drawing2D.LineCap",
+            "label": "T:System.Drawing.Drawing2D.LineCap",
+            "properties": {
+              "PackageId": "System.Drawing.Common",
+              "PackageNewVersion": "8.0.6"
+            },
+            "line": 69,
+            "column": 12
+          }
+        },
+        {
+          "incidentId": "c8c41d86-7788-40fb-8420-2da418f2f626",
+          "ruleId": "Api.0002",
+          "description": "API is available in package System.Drawing.Common, 8.0.6. Add package reference to System.Drawing.Common, 8.0.6",
+          "projectPath": "StreamDeckSahkonhinta.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "using var pen = new Pen(accent, 12)\r\n            {\r\n                StartCap = LineCap.Round,\r\n                EndCap = LineCap.Round,\r\n            };",
+              "protected": "T:System.Drawing.Drawing2D.LineCap"
+            },
+            "kind": "File",
+            "path": "Services\\IconRenderer.cs",
+            "snippet": "using var pen = new Pen(accent, 12)\r\n            {\r\n                StartCap = LineCap.Round,\r\n                EndCap = LineCap.Round,\r\n            };",
+            "protectedSnippet": "T:System.Drawing.Drawing2D.LineCap",
+            "label": "T:System.Drawing.Drawing2D.LineCap",
+            "properties": {
+              "PackageId": "System.Drawing.Common",
+              "PackageNewVersion": "8.0.6"
+            },
+            "line": 69,
+            "column": 12
+          }
+        },
+        {
+          "incidentId": "ab447a92-f4c4-414b-bbc3-ed38db19c4a2",
+          "ruleId": "Api.0002",
+          "description": "API is available in package System.Drawing.Common, 8.0.6. Add package reference to System.Drawing.Common, 8.0.6",
+          "projectPath": "StreamDeckSahkonhinta.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "using var pen = new Pen(accent, 12)\r\n            {\r\n                StartCap = LineCap.Round,\r\n                EndCap = LineCap.Round,\r\n            };",
+              "protected": "F:System.Drawing.Drawing2D.LineCap.Round"
+            },
+            "kind": "File",
+            "path": "Services\\IconRenderer.cs",
+            "snippet": "using var pen = new Pen(accent, 12)\r\n            {\r\n                StartCap = LineCap.Round,\r\n                EndCap = LineCap.Round,\r\n            };",
+            "protectedSnippet": "F:System.Drawing.Drawing2D.LineCap.Round",
+            "label": "F:System.Drawing.Drawing2D.LineCap.Round",
+            "properties": {
+              "PackageId": "System.Drawing.Common",
+              "PackageNewVersion": "8.0.6"
+            },
+            "line": 69,
+            "column": 12
+          }
+        },
+        {
+          "incidentId": "9f325e44-b5e2-47d7-bbc5-cc6417504d8f",
+          "ruleId": "Api.0002",
+          "description": "API is available in package System.Drawing.Common, 8.0.6. Add package reference to System.Drawing.Common, 8.0.6",
+          "projectPath": "StreamDeckSahkonhinta.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "using var pen = new Pen(accent, 12)\r\n            {\r\n                StartCap = LineCap.Round,\r\n                EndCap = LineCap.Round,\r\n            };",
+              "protected": "T:System.Drawing.Drawing2D.LineCap"
+            },
+            "kind": "File",
+            "path": "Services\\IconRenderer.cs",
+            "snippet": "using var pen = new Pen(accent, 12)\r\n            {\r\n                StartCap = LineCap.Round,\r\n                EndCap = LineCap.Round,\r\n            };",
+            "protectedSnippet": "T:System.Drawing.Drawing2D.LineCap",
+            "label": "T:System.Drawing.Drawing2D.LineCap",
+            "properties": {
+              "PackageId": "System.Drawing.Common",
+              "PackageNewVersion": "8.0.6"
+            },
+            "line": 69,
+            "column": 12
+          }
+        },
+        {
+          "incidentId": "f5441030-7121-4b0c-aa29-b7ebcc9fe24f",
+          "ruleId": "Api.0002",
+          "description": "API is available in package System.Drawing.Common, 8.0.6. Add package reference to System.Drawing.Common, 8.0.6",
+          "projectPath": "StreamDeckSahkonhinta.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "using var pen = new Pen(accent, 12)\r\n            {\r\n                StartCap = LineCap.Round,\r\n                EndCap = LineCap.Round,\r\n            };",
+              "protected": "P:System.Drawing.Pen.StartCap"
+            },
+            "kind": "File",
+            "path": "Services\\IconRenderer.cs",
+            "snippet": "using var pen = new Pen(accent, 12)\r\n            {\r\n                StartCap = LineCap.Round,\r\n                EndCap = LineCap.Round,\r\n            };",
+            "protectedSnippet": "P:System.Drawing.Pen.StartCap",
+            "label": "P:System.Drawing.Pen.StartCap",
+            "properties": {
+              "PackageId": "System.Drawing.Common",
+              "PackageNewVersion": "8.0.6"
+            },
+            "line": 69,
+            "column": 12
+          }
+        },
+        {
+          "incidentId": "5412c648-45a8-4e2e-b30f-172d8e8d7ebf",
+          "ruleId": "Api.0002",
+          "description": "API is available in package System.Drawing.Common, 8.0.6. Add package reference to System.Drawing.Common, 8.0.6",
+          "projectPath": "StreamDeckSahkonhinta.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "using var pen = new Pen(accent, 12)\r\n            {\r\n                StartCap = LineCap.Round,\r\n                EndCap = LineCap.Round,\r\n            };",
+              "protected": "T:System.Drawing.Pen"
+            },
+            "kind": "File",
+            "path": "Services\\IconRenderer.cs",
+            "snippet": "using var pen = new Pen(accent, 12)\r\n            {\r\n                StartCap = LineCap.Round,\r\n                EndCap = LineCap.Round,\r\n            };",
+            "protectedSnippet": "T:System.Drawing.Pen",
+            "label": "T:System.Drawing.Pen",
+            "properties": {
+              "PackageId": "System.Drawing.Common",
+              "PackageNewVersion": "8.0.6"
+            },
+            "line": 69,
+            "column": 12
+          }
+        },
+        {
+          "incidentId": "0c54b09f-a088-4598-9dc0-30f1ae4b56c5",
+          "ruleId": "Api.0002",
+          "description": "API is available in package System.Drawing.Common, 8.0.6. Add package reference to System.Drawing.Common, 8.0.6",
+          "projectPath": "StreamDeckSahkonhinta.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "using var pen = new Pen(accent, 12)\r\n            {\r\n                StartCap = LineCap.Round,\r\n                EndCap = LineCap.Round,\r\n            };",
+              "protected": "M:System.Drawing.Pen.#ctor(System.Drawing.Color,System.Single)"
+            },
+            "kind": "File",
+            "path": "Services\\IconRenderer.cs",
+            "snippet": "using var pen = new Pen(accent, 12)\r\n            {\r\n                StartCap = LineCap.Round,\r\n                EndCap = LineCap.Round,\r\n            };",
+            "protectedSnippet": "M:System.Drawing.Pen.#ctor(System.Drawing.Color,System.Single)",
+            "label": "M:System.Drawing.Pen.#ctor(System.Drawing.Color,System.Single)",
+            "properties": {
+              "PackageId": "System.Drawing.Common",
+              "PackageNewVersion": "8.0.6"
+            },
+            "line": 69,
+            "column": 12
+          }
+        },
+        {
+          "incidentId": "9f3e0129-34ef-4840-a1ad-7751ff7dd79f",
+          "ruleId": "Api.0002",
+          "description": "API is available in package System.Drawing.Common, 8.0.6. Add package reference to System.Drawing.Common, 8.0.6",
+          "projectPath": "StreamDeckSahkonhinta.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "private static void DrawBackground(Graphics g)",
+              "protected": "T:System.Drawing.Graphics"
+            },
+            "kind": "File",
+            "path": "Services\\IconRenderer.cs",
+            "snippet": "private static void DrawBackground(Graphics g)",
+            "protectedSnippet": "T:System.Drawing.Graphics",
+            "label": "T:System.Drawing.Graphics",
+            "properties": {
+              "PackageId": "System.Drawing.Common",
+              "PackageNewVersion": "8.0.6"
+            },
+            "line": 59,
+            "column": 8
+          }
+        },
+        {
+          "incidentId": "779c6639-c5ab-4ce7-932a-4ceaea61a600",
+          "ruleId": "Api.0002",
+          "description": "API is available in package System.Drawing.Common, 8.0.6. Add package reference to System.Drawing.Common, 8.0.6",
+          "projectPath": "StreamDeckSahkonhinta.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "g.FillPath(brush, path);",
+              "protected": "M:System.Drawing.Graphics.FillPath(System.Drawing.Brush,System.Drawing.Drawing2D.GraphicsPath)"
+            },
+            "kind": "File",
+            "path": "Services\\IconRenderer.cs",
+            "snippet": "g.FillPath(brush, path);",
+            "protectedSnippet": "M:System.Drawing.Graphics.FillPath(System.Drawing.Brush,System.Drawing.Drawing2D.GraphicsPath)",
+            "label": "M:System.Drawing.Graphics.FillPath(System.Drawing.Brush,System.Drawing.Drawing2D.GraphicsPath)",
+            "properties": {
+              "PackageId": "System.Drawing.Common",
+              "PackageNewVersion": "8.0.6"
+            },
+            "line": 63,
+            "column": 12
+          }
+        },
+        {
+          "incidentId": "78dc9799-4c26-40ec-8c2e-8023031dec01",
+          "ruleId": "Api.0002",
+          "description": "API is available in package System.Drawing.Common, 8.0.6. Add package reference to System.Drawing.Common, 8.0.6",
+          "projectPath": "StreamDeckSahkonhinta.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "using var path = RoundedRect(new Rectangle(0, 0, Size, Size), 26);",
+              "protected": "T:System.Drawing.Drawing2D.GraphicsPath"
+            },
+            "kind": "File",
+            "path": "Services\\IconRenderer.cs",
+            "snippet": "using var path = RoundedRect(new Rectangle(0, 0, Size, Size), 26);",
+            "protectedSnippet": "T:System.Drawing.Drawing2D.GraphicsPath",
+            "label": "T:System.Drawing.Drawing2D.GraphicsPath",
+            "properties": {
+              "PackageId": "System.Drawing.Common",
+              "PackageNewVersion": "8.0.6"
+            },
+            "line": 62,
+            "column": 12
+          }
+        },
+        {
+          "incidentId": "4dfde578-cd34-43ef-a2c4-43040d42090a",
+          "ruleId": "Api.0002",
+          "description": "API is available in package System.Drawing.Common, 8.0.6. Add package reference to System.Drawing.Common, 8.0.6",
+          "projectPath": "StreamDeckSahkonhinta.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "using var brush = new SolidBrush(ColorTranslator.FromHtml(BackgroundColor));",
+              "protected": "T:System.Drawing.SolidBrush"
+            },
+            "kind": "File",
+            "path": "Services\\IconRenderer.cs",
+            "snippet": "using var brush = new SolidBrush(ColorTranslator.FromHtml(BackgroundColor));",
+            "protectedSnippet": "T:System.Drawing.SolidBrush",
+            "label": "T:System.Drawing.SolidBrush",
+            "properties": {
+              "PackageId": "System.Drawing.Common",
+              "PackageNewVersion": "8.0.6"
+            },
+            "line": 61,
+            "column": 12
+          }
+        },
+        {
+          "incidentId": "26b8997d-d275-40db-a897-eb8bd3d060ef",
+          "ruleId": "Api.0002",
+          "description": "API is available in package System.Drawing.Common, 8.0.6. Add package reference to System.Drawing.Common, 8.0.6",
+          "projectPath": "StreamDeckSahkonhinta.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "using var brush = new SolidBrush(ColorTranslator.FromHtml(BackgroundColor));",
+              "protected": "M:System.Drawing.SolidBrush.#ctor(System.Drawing.Color)"
+            },
+            "kind": "File",
+            "path": "Services\\IconRenderer.cs",
+            "snippet": "using var brush = new SolidBrush(ColorTranslator.FromHtml(BackgroundColor));",
+            "protectedSnippet": "M:System.Drawing.SolidBrush.#ctor(System.Drawing.Color)",
+            "label": "M:System.Drawing.SolidBrush.#ctor(System.Drawing.Color)",
+            "properties": {
+              "PackageId": "System.Drawing.Common",
+              "PackageNewVersion": "8.0.6"
+            },
+            "line": 61,
+            "column": 12
+          }
+        },
+        {
+          "incidentId": "948b5bda-3e9d-4ef1-8606-0d7a3f834dc9",
+          "ruleId": "Api.0002",
+          "description": "API is available in package System.Drawing.Common, 8.0.6. Add package reference to System.Drawing.Common, 8.0.6",
+          "projectPath": "StreamDeckSahkonhinta.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "g.TextRenderingHint = TextRenderingHint.AntiAliasGridFit;",
+              "protected": "T:System.Drawing.Text.TextRenderingHint"
+            },
+            "kind": "File",
+            "path": "Services\\IconRenderer.cs",
+            "snippet": "g.TextRenderingHint = TextRenderingHint.AntiAliasGridFit;",
+            "protectedSnippet": "T:System.Drawing.Text.TextRenderingHint",
+            "label": "T:System.Drawing.Text.TextRenderingHint",
+            "properties": {
+              "PackageId": "System.Drawing.Common",
+              "PackageNewVersion": "8.0.6"
+            },
+            "line": 40,
+            "column": 16
+          }
+        },
+        {
+          "incidentId": "79f00797-792b-4be3-8621-378ae8b3e0a4",
+          "ruleId": "Api.0002",
+          "description": "API is available in package System.Drawing.Common, 8.0.6. Add package reference to System.Drawing.Common, 8.0.6",
+          "projectPath": "StreamDeckSahkonhinta.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "g.TextRenderingHint = TextRenderingHint.AntiAliasGridFit;",
+              "protected": "T:System.Drawing.Text.TextRenderingHint"
+            },
+            "kind": "File",
+            "path": "Services\\IconRenderer.cs",
+            "snippet": "g.TextRenderingHint = TextRenderingHint.AntiAliasGridFit;",
+            "protectedSnippet": "T:System.Drawing.Text.TextRenderingHint",
+            "label": "T:System.Drawing.Text.TextRenderingHint",
+            "properties": {
+              "PackageId": "System.Drawing.Common",
+              "PackageNewVersion": "8.0.6"
+            },
+            "line": 40,
+            "column": 16
+          }
+        },
+        {
+          "incidentId": "029ffc6b-687c-46c1-95ce-d7df52eaf2d1",
+          "ruleId": "Api.0002",
+          "description": "API is available in package System.Drawing.Common, 8.0.6. Add package reference to System.Drawing.Common, 8.0.6",
+          "projectPath": "StreamDeckSahkonhinta.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "g.TextRenderingHint = TextRenderingHint.AntiAliasGridFit;",
+              "protected": "F:System.Drawing.Text.TextRenderingHint.AntiAliasGridFit"
+            },
+            "kind": "File",
+            "path": "Services\\IconRenderer.cs",
+            "snippet": "g.TextRenderingHint = TextRenderingHint.AntiAliasGridFit;",
+            "protectedSnippet": "F:System.Drawing.Text.TextRenderingHint.AntiAliasGridFit",
+            "label": "F:System.Drawing.Text.TextRenderingHint.AntiAliasGridFit",
+            "properties": {
+              "PackageId": "System.Drawing.Common",
+              "PackageNewVersion": "8.0.6"
+            },
+            "line": 40,
+            "column": 16
+          }
+        },
+        {
+          "incidentId": "2fb4202c-9208-4ad6-b786-9a291df535ff",
+          "ruleId": "Api.0002",
+          "description": "API is available in package System.Drawing.Common, 8.0.6. Add package reference to System.Drawing.Common, 8.0.6",
+          "projectPath": "StreamDeckSahkonhinta.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "g.TextRenderingHint = TextRenderingHint.AntiAliasGridFit;",
+              "protected": "T:System.Drawing.Text.TextRenderingHint"
+            },
+            "kind": "File",
+            "path": "Services\\IconRenderer.cs",
+            "snippet": "g.TextRenderingHint = TextRenderingHint.AntiAliasGridFit;",
+            "protectedSnippet": "T:System.Drawing.Text.TextRenderingHint",
+            "label": "T:System.Drawing.Text.TextRenderingHint",
+            "properties": {
+              "PackageId": "System.Drawing.Common",
+              "PackageNewVersion": "8.0.6"
+            },
+            "line": 40,
+            "column": 16
+          }
+        },
+        {
+          "incidentId": "8a900c4e-89ab-4719-bbf5-654cbd604f02",
+          "ruleId": "Api.0002",
+          "description": "API is available in package System.Drawing.Common, 8.0.6. Add package reference to System.Drawing.Common, 8.0.6",
+          "projectPath": "StreamDeckSahkonhinta.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "g.TextRenderingHint = TextRenderingHint.AntiAliasGridFit;",
+              "protected": "P:System.Drawing.Graphics.TextRenderingHint"
+            },
+            "kind": "File",
+            "path": "Services\\IconRenderer.cs",
+            "snippet": "g.TextRenderingHint = TextRenderingHint.AntiAliasGridFit;",
+            "protectedSnippet": "P:System.Drawing.Graphics.TextRenderingHint",
+            "label": "P:System.Drawing.Graphics.TextRenderingHint",
+            "properties": {
+              "PackageId": "System.Drawing.Common",
+              "PackageNewVersion": "8.0.6"
+            },
+            "line": 40,
+            "column": 16
+          }
+        },
+        {
+          "incidentId": "971608f9-4124-4553-9cd3-07c9460c9437",
+          "ruleId": "Api.0002",
+          "description": "API is available in package System.Drawing.Common, 8.0.6. Add package reference to System.Drawing.Common, 8.0.6",
+          "projectPath": "StreamDeckSahkonhinta.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "g.SmoothingMode = SmoothingMode.AntiAlias;",
+              "protected": "T:System.Drawing.Drawing2D.SmoothingMode"
+            },
+            "kind": "File",
+            "path": "Services\\IconRenderer.cs",
+            "snippet": "g.SmoothingMode = SmoothingMode.AntiAlias;",
+            "protectedSnippet": "T:System.Drawing.Drawing2D.SmoothingMode",
+            "label": "T:System.Drawing.Drawing2D.SmoothingMode",
+            "properties": {
+              "PackageId": "System.Drawing.Common",
+              "PackageNewVersion": "8.0.6"
+            },
+            "line": 39,
+            "column": 16
+          }
+        },
+        {
+          "incidentId": "7abd0932-e75a-4905-84ad-c1cb93a9c8a9",
+          "ruleId": "Api.0002",
+          "description": "API is available in package System.Drawing.Common, 8.0.6. Add package reference to System.Drawing.Common, 8.0.6",
+          "projectPath": "StreamDeckSahkonhinta.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "g.SmoothingMode = SmoothingMode.AntiAlias;",
+              "protected": "T:System.Drawing.Drawing2D.SmoothingMode"
+            },
+            "kind": "File",
+            "path": "Services\\IconRenderer.cs",
+            "snippet": "g.SmoothingMode = SmoothingMode.AntiAlias;",
+            "protectedSnippet": "T:System.Drawing.Drawing2D.SmoothingMode",
+            "label": "T:System.Drawing.Drawing2D.SmoothingMode",
+            "properties": {
+              "PackageId": "System.Drawing.Common",
+              "PackageNewVersion": "8.0.6"
+            },
+            "line": 39,
+            "column": 16
+          }
+        },
+        {
+          "incidentId": "0c5441e0-37f6-4bce-a0b2-bab55a0f3538",
+          "ruleId": "Api.0002",
+          "description": "API is available in package System.Drawing.Common, 8.0.6. Add package reference to System.Drawing.Common, 8.0.6",
+          "projectPath": "StreamDeckSahkonhinta.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "g.SmoothingMode = SmoothingMode.AntiAlias;",
+              "protected": "F:System.Drawing.Drawing2D.SmoothingMode.AntiAlias"
+            },
+            "kind": "File",
+            "path": "Services\\IconRenderer.cs",
+            "snippet": "g.SmoothingMode = SmoothingMode.AntiAlias;",
+            "protectedSnippet": "F:System.Drawing.Drawing2D.SmoothingMode.AntiAlias",
+            "label": "F:System.Drawing.Drawing2D.SmoothingMode.AntiAlias",
+            "properties": {
+              "PackageId": "System.Drawing.Common",
+              "PackageNewVersion": "8.0.6"
+            },
+            "line": 39,
+            "column": 16
+          }
+        },
+        {
+          "incidentId": "d6d3db77-b7e7-4e40-a190-4d688019cac6",
+          "ruleId": "Api.0002",
+          "description": "API is available in package System.Drawing.Common, 8.0.6. Add package reference to System.Drawing.Common, 8.0.6",
+          "projectPath": "StreamDeckSahkonhinta.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "g.SmoothingMode = SmoothingMode.AntiAlias;",
+              "protected": "T:System.Drawing.Drawing2D.SmoothingMode"
+            },
+            "kind": "File",
+            "path": "Services\\IconRenderer.cs",
+            "snippet": "g.SmoothingMode = SmoothingMode.AntiAlias;",
+            "protectedSnippet": "T:System.Drawing.Drawing2D.SmoothingMode",
+            "label": "T:System.Drawing.Drawing2D.SmoothingMode",
+            "properties": {
+              "PackageId": "System.Drawing.Common",
+              "PackageNewVersion": "8.0.6"
+            },
+            "line": 39,
+            "column": 16
+          }
+        },
+        {
+          "incidentId": "faf90848-fbe6-45ca-ae90-d8c2990856d4",
+          "ruleId": "Api.0002",
+          "description": "API is available in package System.Drawing.Common, 8.0.6. Add package reference to System.Drawing.Common, 8.0.6",
+          "projectPath": "StreamDeckSahkonhinta.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "g.SmoothingMode = SmoothingMode.AntiAlias;",
+              "protected": "P:System.Drawing.Graphics.SmoothingMode"
+            },
+            "kind": "File",
+            "path": "Services\\IconRenderer.cs",
+            "snippet": "g.SmoothingMode = SmoothingMode.AntiAlias;",
+            "protectedSnippet": "P:System.Drawing.Graphics.SmoothingMode",
+            "label": "P:System.Drawing.Graphics.SmoothingMode",
+            "properties": {
+              "PackageId": "System.Drawing.Common",
+              "PackageNewVersion": "8.0.6"
+            },
+            "line": 39,
+            "column": 16
+          }
+        },
+        {
+          "incidentId": "832ead2d-b7aa-425d-87f4-4c839415cb21",
+          "ruleId": "Api.0002",
+          "description": "API is available in package System.Drawing.Common, 8.0.6. Add package reference to System.Drawing.Common, 8.0.6",
+          "projectPath": "StreamDeckSahkonhinta.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "using (var g = Graphics.FromImage(bitmap))\r\n            {\r\n                g.SmoothingMode = SmoothingMode.AntiAlias;\r\n                g.TextRenderingHint = TextRenderingHint.AntiAliasGridFit;\r\n\r\n                DrawBackground(g);\r\n                DrawGaugeArc(g, accent);\r\n                DrawBolt(g, accent);\r\n                DrawPriceText(g, priceText, unitText);\r\n            }",
+              "protected": "T:System.Drawing.Graphics"
+            },
+            "kind": "File",
+            "path": "Services\\IconRenderer.cs",
+            "snippet": "using (var g = Graphics.FromImage(bitmap))\r\n            {\r\n                g.SmoothingMode = SmoothingMode.AntiAlias;\r\n                g.TextRenderingHint = TextRenderingHint.AntiAliasGridFit;\r\n\r\n                DrawBackground(g);\r\n                DrawGaugeArc(g, accent);\r\n                DrawBolt(g, accent);\r\n                DrawPriceText(g, priceText, unitText);\r\n            }",
+            "protectedSnippet": "T:System.Drawing.Graphics",
+            "label": "T:System.Drawing.Graphics",
+            "properties": {
+              "PackageId": "System.Drawing.Common",
+              "PackageNewVersion": "8.0.6"
+            },
+            "line": 37,
+            "column": 12
+          }
+        },
+        {
+          "incidentId": "375f5857-4d64-4634-9aad-a4d77b7cb339",
+          "ruleId": "Api.0002",
+          "description": "API is available in package System.Drawing.Common, 8.0.6. Add package reference to System.Drawing.Common, 8.0.6",
+          "projectPath": "StreamDeckSahkonhinta.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "using (var g = Graphics.FromImage(bitmap))\r\n            {\r\n                g.SmoothingMode = SmoothingMode.AntiAlias;\r\n                g.TextRenderingHint = TextRenderingHint.AntiAliasGridFit;\r\n\r\n                DrawBackground(g);\r\n                DrawGaugeArc(g, accent);\r\n                DrawBolt(g, accent);\r\n                DrawPriceText(g, priceText, unitText);\r\n            }",
+              "protected": "T:System.Drawing.Graphics"
+            },
+            "kind": "File",
+            "path": "Services\\IconRenderer.cs",
+            "snippet": "using (var g = Graphics.FromImage(bitmap))\r\n            {\r\n                g.SmoothingMode = SmoothingMode.AntiAlias;\r\n                g.TextRenderingHint = TextRenderingHint.AntiAliasGridFit;\r\n\r\n                DrawBackground(g);\r\n                DrawGaugeArc(g, accent);\r\n                DrawBolt(g, accent);\r\n                DrawPriceText(g, priceText, unitText);\r\n            }",
+            "protectedSnippet": "T:System.Drawing.Graphics",
+            "label": "T:System.Drawing.Graphics",
+            "properties": {
+              "PackageId": "System.Drawing.Common",
+              "PackageNewVersion": "8.0.6"
+            },
+            "line": 37,
+            "column": 12
+          }
+        },
+        {
+          "incidentId": "b69f57ea-9e5b-46e7-adb5-b124a2b9ec39",
+          "ruleId": "Api.0002",
+          "description": "API is available in package System.Drawing.Common, 8.0.6. Add package reference to System.Drawing.Common, 8.0.6",
+          "projectPath": "StreamDeckSahkonhinta.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "using (var g = Graphics.FromImage(bitmap))\r\n            {\r\n                g.SmoothingMode = SmoothingMode.AntiAlias;\r\n                g.TextRenderingHint = TextRenderingHint.AntiAliasGridFit;\r\n\r\n                DrawBackground(g);\r\n                DrawGaugeArc(g, accent);\r\n                DrawBolt(g, accent);\r\n                DrawPriceText(g, priceText, unitText);\r\n            }",
+              "protected": "M:System.Drawing.Graphics.FromImage(System.Drawing.Image)"
+            },
+            "kind": "File",
+            "path": "Services\\IconRenderer.cs",
+            "snippet": "using (var g = Graphics.FromImage(bitmap))\r\n            {\r\n                g.SmoothingMode = SmoothingMode.AntiAlias;\r\n                g.TextRenderingHint = TextRenderingHint.AntiAliasGridFit;\r\n\r\n                DrawBackground(g);\r\n                DrawGaugeArc(g, accent);\r\n                DrawBolt(g, accent);\r\n                DrawPriceText(g, priceText, unitText);\r\n            }",
+            "protectedSnippet": "M:System.Drawing.Graphics.FromImage(System.Drawing.Image)",
+            "label": "M:System.Drawing.Graphics.FromImage(System.Drawing.Image)",
+            "properties": {
+              "PackageId": "System.Drawing.Common",
+              "PackageNewVersion": "8.0.6"
+            },
+            "line": 37,
+            "column": 12
+          }
+        },
+        {
+          "incidentId": "c1de67d9-ecfd-40a9-a1b9-af3dce5f701a",
+          "ruleId": "Api.0002",
+          "description": "API is available in package System.Drawing.Common, 8.0.6. Add package reference to System.Drawing.Common, 8.0.6",
+          "projectPath": "StreamDeckSahkonhinta.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "using var bitmap = new Bitmap(Size, Size);",
+              "protected": "T:System.Drawing.Bitmap"
+            },
+            "kind": "File",
+            "path": "Services\\IconRenderer.cs",
+            "snippet": "using var bitmap = new Bitmap(Size, Size);",
+            "protectedSnippet": "T:System.Drawing.Bitmap",
+            "label": "T:System.Drawing.Bitmap",
+            "properties": {
+              "PackageId": "System.Drawing.Common",
+              "PackageNewVersion": "8.0.6"
+            },
+            "line": 36,
+            "column": 12
+          }
+        },
+        {
+          "incidentId": "c26b4828-09c1-453d-93ed-59132227f914",
+          "ruleId": "Api.0002",
+          "description": "API is available in package System.Drawing.Common, 8.0.6. Add package reference to System.Drawing.Common, 8.0.6",
+          "projectPath": "StreamDeckSahkonhinta.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "using var bitmap = new Bitmap(Size, Size);",
+              "protected": "M:System.Drawing.Bitmap.#ctor(System.Int32,System.Int32)"
+            },
+            "kind": "File",
+            "path": "Services\\IconRenderer.cs",
+            "snippet": "using var bitmap = new Bitmap(Size, Size);",
+            "protectedSnippet": "M:System.Drawing.Bitmap.#ctor(System.Int32,System.Int32)",
+            "label": "M:System.Drawing.Bitmap.#ctor(System.Int32,System.Int32)",
+            "properties": {
+              "PackageId": "System.Drawing.Common",
+              "PackageNewVersion": "8.0.6"
+            },
+            "line": 36,
+            "column": 12
+          }
+        },
+        {
+          "incidentId": "2dcaa818-2469-4c1a-9221-586510753544",
+          "ruleId": "Api.0003",
+          "description": "Breaking change - Streaming HTTP responses enabled by default in browser HTTP clients ",
+          "projectPath": "StreamDeckSahkonhinta.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "var json = await response.Content.ReadAsStringAsync();",
+              "protected": "T:System.Net.Http.HttpContent"
+            },
+            "kind": "File",
+            "path": "Services\\ElectricPriceService.cs",
+            "snippet": "var json = await response.Content.ReadAsStringAsync();",
+            "protectedSnippet": "T:System.Net.Http.HttpContent",
+            "label": "T:System.Net.Http.HttpContent",
+            "links": [
+              {
+                "title": "API documentation",
+                "url": "https://github.com/dotnet/docs/blob/main/docs/core/compatibility/networking/10.0/default-http-streaming.md",
+                "isCustom": false
+              }
+            ],
+            "line": 39,
+            "column": 12
+          }
+        }
+      ],
+      "features": [
+        {
+          "featureId": "GdiDrawing",
+          "incidents": [
+            "c26b4828-09c1-453d-93ed-59132227f914",
+            "c1de67d9-ecfd-40a9-a1b9-af3dce5f701a",
+            "b69f57ea-9e5b-46e7-adb5-b124a2b9ec39",
+            "375f5857-4d64-4634-9aad-a4d77b7cb339",
+            "832ead2d-b7aa-425d-87f4-4c839415cb21",
+            "faf90848-fbe6-45ca-ae90-d8c2990856d4",
+            "d6d3db77-b7e7-4e40-a190-4d688019cac6",
+            "0c5441e0-37f6-4bce-a0b2-bab55a0f3538",
+            "7abd0932-e75a-4905-84ad-c1cb93a9c8a9",
+            "971608f9-4124-4553-9cd3-07c9460c9437",
+            "8a900c4e-89ab-4719-bbf5-654cbd604f02",
+            "2fb4202c-9208-4ad6-b786-9a291df535ff",
+            "029ffc6b-687c-46c1-95ce-d7df52eaf2d1",
+            "79f00797-792b-4be3-8621-378ae8b3e0a4",
+            "948b5bda-3e9d-4ef1-8606-0d7a3f834dc9",
+            "26b8997d-d275-40db-a897-eb8bd3d060ef",
+            "4dfde578-cd34-43ef-a2c4-43040d42090a",
+            "78dc9799-4c26-40ec-8c2e-8023031dec01",
+            "779c6639-c5ab-4ce7-932a-4ceaea61a600",
+            "9f3e0129-34ef-4840-a1ad-7751ff7dd79f",
+            "0c54b09f-a088-4598-9dc0-30f1ae4b56c5",
+            "5412c648-45a8-4e2e-b30f-172d8e8d7ebf",
+            "f5441030-7121-4b0c-aa29-b7ebcc9fe24f",
+            "9f325e44-b5e2-47d7-bbc5-cc6417504d8f",
+            "ab447a92-f4c4-414b-bbc3-ed38db19c4a2",
+            "c8c41d86-7788-40fb-8420-2da418f2f626",
+            "48efb137-4694-4d1e-809d-fac72160d812",
+            "002c28a9-c0fa-4557-b29f-875f88223db0",
+            "f26be0af-e622-4d82-aa72-4e843e668cc7",
+            "21f54fde-7b63-4c31-b1ed-c908b1ef3557",
+            "421dd63b-a787-4126-8433-d65205df77a5",
+            "c63b27a6-51c1-49ff-9f1b-63e3e6f94796",
+            "768e84bd-11d9-4e07-9bbb-2b0cbc4b44fb",
+            "f43e15cc-14f7-4361-94de-0b95e7eed1c3",
+            "194292e9-dc07-4e86-a929-43b2748f8529",
+            "4c80f579-6ef6-4a76-aa38-f760b8c5a584",
+            "2ed6cf76-d6d6-40b4-ac71-3637e6c5baf8",
+            "b5cbb65b-1aef-461d-a1ef-78e630cd6114",
+            "cc45829b-cbb0-4bb1-9665-f9f47fa02fbc",
+            "94057eab-f1b9-45a1-8b6e-601da68c03d0",
+            "d7812faf-6d3c-4907-b76e-120c16689e29",
+            "7c803c90-b882-45c7-be36-f0b6bcf1e774",
+            "2928db20-6092-4159-9fd9-a4b8c448f959",
+            "c3e6541c-7572-4942-8814-66c1d1abeaa4",
+            "fc384f8d-5ead-41ac-923b-06cbe1173859",
+            "4a8d4fca-1ea9-42cd-8c40-b4492041da90",
+            "65e6e734-7b6d-4311-8578-58c2de2e2a64",
+            "fd61aac2-1560-4a2d-bf9e-6ee9bf0382d0",
+            "04b05255-7fb7-40d3-ac84-81468bb8e96e",
+            "7e2d2e44-a49d-4856-80cd-bc8d7bfa54fa",
+            "5e5a64ae-bc43-429e-b868-56f3bc09555e",
+            "9eb99c74-148b-4548-85f1-105651342841",
+            "e527d222-2cd7-4fea-ac09-975141d807d3",
+            "a57ddd58-482b-43ad-ba3e-dc075b29672f",
+            "0a8857d7-a5e9-4e78-b353-27b768bedbd8",
+            "19b7418d-bedb-4467-9033-f23bc6c2a204",
+            "f1f74aee-60df-4358-a770-890ab3382049",
+            "a1aa9f27-c42a-4a03-b4e8-41464f7ef4e4",
+            "336be303-94be-4d79-8c43-ebf6c28cb269",
+            "bf13b1d5-a423-4c20-b12a-9171ee6b2baa",
+            "7702dc73-2854-4a7c-b062-4605aca3c3aa",
+            "d67347c6-f7a6-4eed-9140-17383bf2ab96",
+            "48f4ac4b-a2d1-46b8-b9ec-16da4d53fb94",
+            "03533145-c888-46ed-af98-00d5e4e3f46c",
+            "92b6df4e-103f-4132-9137-80a2a829a900",
+            "4b5837f2-eead-40eb-a6e1-d8444e5e813b",
+            "4f496cde-a9c2-4d24-abd7-1112e805efbf",
+            "915ac71e-5c68-43a3-a678-cd3c8cd103e5",
+            "a0812cb7-38d1-4ba8-8f75-c3327c51fd45",
+            "4a405d44-25a6-404c-b909-fb0b41404760",
+            "64a520bd-cd58-4f72-bab2-d1769225a6e6",
+            "243d8c58-aa8a-422f-b0a3-f003e5e0d84d",
+            "6fe17bc8-ffd3-4b5a-973f-e000fec7a637",
+            "e82d5a71-bd62-4b02-b684-108a1f980343",
+            "e2cf4356-1423-4e8e-8938-04ee8baa0249",
+            "6b55b627-1f37-4f22-8524-cfaee81ed7ed"
+          ]
+        }
+      ]
+    }
+  ],
+  "rules": {
+    "NuGet.0002": {
+      "id": "NuGet.0002",
+      "isFeature": false,
+      "description": "NuGet package upgrade is recommended for selected target framework.\n\nStandard .NET packages are recommended to have versions matching version of .NET that project targets.\n\nSome other packages also are known to work better for selected target frameworks.",
+      "label": "NuGet package upgrade is recommended",
+      "severity": "Potential",
+      "effort": 1,
+      "links": [
+        {
+          "url": "https://go.microsoft.com/fwlink/?linkid=2262530",
+          "isCustom": false
+        }
+      ]
+    },
+    "NuGet.0003": {
+      "id": "NuGet.0003",
+      "isFeature": false,
+      "description": "NuGet package functionality is included with framework reference.\n\nPackage needs to be removed.",
+      "label": "NuGet package functionality is included with framework reference",
+      "severity": "Mandatory",
+      "effort": 1,
+      "links": [
+        {
+          "url": "https://go.microsoft.com/fwlink/?linkid=2262609",
+          "isCustom": false
+        }
+      ]
+    },
+    "Project.0002": {
+      "id": "Project.0002",
+      "isFeature": false,
+      "description": "Project\u0027s target framework(s) needs to be changed to the new target framework that you selected for this upgrade.\n\nDuring upgrade target framework will be adjusted to corresponding platform when applicable. In some cases project would result in multiple target frameworks after the upgrade if it was using features that now have their own platforms in modern .NET frameworks (windows, iOS, Android etc).",
+      "label": "Project\u0027s target framework(s) needs to be changed",
+      "severity": "Mandatory",
+      "effort": 1,
+      "links": [
+        {
+          "title": "Overview of porting from .NET Framework to .NET",
+          "url": "https://go.microsoft.com/fwlink/?linkid=2265227",
+          "isCustom": false
+        },
+        {
+          "title": ".NET project SDKs",
+          "url": "https://go.microsoft.com/fwlink/?linkid=2265226",
+          "isCustom": false
+        }
+      ]
+    },
+    "Api.0002": {
+      "id": "Api.0002",
+      "isFeature": false,
+      "description": "API is source incompatible for selected .NET version: requires code changes to compile successfully when targeting a new version, such as removing obsolete APIs or changing method signatures.",
+      "label": "Source incompatible for selected .NET version",
+      "severity": "Potential",
+      "effort": 1,
+      "links": [
+        {
+          "title": "Breaking changes in .NET",
+          "url": "https://go.microsoft.com/fwlink/?linkid=2262679",
+          "isCustom": false
+        }
+      ]
+    },
+    "Api.0003": {
+      "id": "Api.0003",
+      "isFeature": false,
+      "description": "API has a behavioral change in selected .NET version: code and binaries may behave differently at runtime without needing recompilation, but the new behavior might be undesirable and require updates.",
+      "label": "Behavioral change in selected .NET version",
+      "severity": "Potential",
+      "effort": 1
+    },
+    "GdiDrawing": {
+      "id": "GdiDrawing",
+      "isFeature": false,
+      "description": "System.Drawing APIs for 2D graphics, imaging, and printing that are available via NuGet package System.Drawing.Common. Note: Not recommended for server scenarios due to Windows dependencies; consider cross-platform alternatives like SkiaSharp or ImageSharp for new code.",
+      "label": "GDI\u002B / System.Drawing",
+      "severity": "Mandatory",
+      "effort": 1,
+      "links": [
+        {
+          "title": "System.Drawing.Common only supported on Windows",
+          "url": "https://go.microsoft.com/fwlink/?linkid=2341701",
+          "isCustom": false
+        }
+      ]
+    }
+  }
+}

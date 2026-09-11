@@ -1,0 +1,15 @@
+{
+  "scenarioId": "dotnet-version-upgrade",
+  "operationId": "d68dddc0-77e2-492e-853e-a2b819f24cb4",
+  "description": "Upgrade .NET projects to newer .NET versions, including guidance on current release status, support lifecycle (LTS/STS), and recommended upgrade targets.",
+  "startTime": "2026-09-10T16:26:08.6097477Z",
+  "lastUpdateTime": "2026-09-10T16:36:39.1406605Z",
+  "properties": {
+    "UpgradeTargetFramework": "net10.0",
+    "taskStates": {
+      "01-upgrade-streamdeck-plugin": "Completed",
+      "02-final-validation": "Completed"
+    }
+  },
+  "folderPath": ""
+}

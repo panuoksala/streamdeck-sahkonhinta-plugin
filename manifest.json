@@ -1,0 +1,37 @@
+{
+  "Actions": [
+    {
+      "Icon": "images/icon_small",
+      "Name": "Pörssisähkön hinta",
+      "States": [
+        {
+          "Image": "images/icon_small"
+        }
+      ],
+      "SupportedInMultiActions": false,
+      "Tooltip": "Show the current Finnish electricity spot price (spot-hinta.fi) on your Stream Deck device.",
+      "UUID": "net.oksala.sahkonhinta.price"
+    }
+  ],
+  "Category": "Pörssisähkön hinta",
+  "CategoryIcon": "images/icon_small",
+  "Disabled": false,
+  "Author": "Panu Oksala",
+  "CodePath": "StreamDeckSahkonhinta.exe",
+  "PropertyInspectorPath": "property_inspector/property_inspector.html",
+  "Description": "Stream Deck plugin for showing the current Finnish electricity spot price (spot-hinta.fi) by Panu Oksala.",
+  "Name": "Pörssisähkön hinta",
+  "Icon": "images/icon_large",
+  "URL": "https://github.com/panuoksala/streamdeck-sahkonhinta-plugin",
+  "Version": "0.1.0",
+  "SDKVersion": 2,
+  "Software": {
+    "MinimumVersion": "5.0"
+  },
+  "OS": [
+    {
+      "Platform": "windows",
+      "MinimumVersion": "10"
+    }
+  ]
+}
