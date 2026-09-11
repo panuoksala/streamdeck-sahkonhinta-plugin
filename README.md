@@ -1,4 +1,4 @@
-[![.NET](https://github.com/panuoksala/streamdeck-sahkonhinta-plugin/actions/workflows/dotnet.yml/badge.svg?branch=master)](https://github.com/panuoksala/streamdeck-sahkonhinta-plugin/actions/workflows/dotnet.yml)
+[![.NET](https://github.com/panuoksala/streamdeck-sahkonhinta-plugin/actions/workflows/dotnet.yml/badge.svg?branch=main)](https://github.com/panuoksala/streamdeck-sahkonhinta-plugin/actions/workflows/dotnet.yml)
 
 # Pörssisähkön hinta (Finnish electricity price) plugin
 
