@@ -25,9 +25,9 @@
   "URL": "https://github.com/panuoksala/streamdeck-sahkonhinta-plugin",
   "UUID": "net.oksala.sahkonhinta",
   "Version": "0.1.0",
-  "SDKVersion": 2,
+  "SDKVersion": 3,
   "Software": {
-    "MinimumVersion": "5.0"
+    "MinimumVersion": "6.9"
   },
   "OS": [
     {
